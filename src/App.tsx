@@ -498,7 +498,7 @@ export default function App() {
             </div>
             <div>
               <h1 className={`text-sm font-black tracking-widest uppercase ${theme === "dark" ? "text-white" : "text-slate-900"}`}>
-                CPG Risk Study App
+                Exam Prep
               </h1>
               <p className={`text-[10px] font-semibold uppercase tracking-tighter ${theme === "dark" ? "text-cyan-400" : "text-cyan-600"}`}>
                 Credit Policy Portal V6.0
@@ -596,7 +596,7 @@ export default function App() {
                      V6.0 Handbook Portal
                   </div>
                   <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
-                    CPG Credit Risk <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Training Simulator</span>
+                    Exam Prep <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Training Simulator</span>
                   </h2>
                   <p className="text-sm text-slate-300 leading-relaxed max-w-xl">
                     Prepare with high-fidelity simulation material meticulously mapped directly from the Access Bank Credit Policy Guide. Train with active recall, study specifically by section, and verify explanations instantly.

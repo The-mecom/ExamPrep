@@ -1,6 +1,6 @@
 {
-  "name": "CPG Credit Risk Study App",
-  "description": "An interactive learning web application of the Credit Policy Guide covering all 14 knowledge areas with Exam Simulation, Study Mode, and detailed explanations.",
+  "name": "Exam Prep",
+  "description": "An interactive learning web application for Exam Prep covering all 14 knowledge areas with Exam Simulation, Study Mode, Question Search, and detailed explanations.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
