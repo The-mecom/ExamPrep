@@ -224,11 +224,71 @@ export default function App() {
     setQuickPracticeChecked(false);
   };
 
+  // Helper to detect repetitive question template types
+  const isPreserveFilesTemplate = (q: Question) =>
+    q.question.toLowerCase().includes("preserve files for category portfolio group");
+
+  const isCollateralValuationTemplate = (q: Question) =>
+    q.question.toLowerCase().includes("physical existence and market valuation of collateral");
+
+  const isKycChecksTemplate = (q: Question) =>
+    q.question.toLowerCase().includes("comprehensive kyc checks for all obligor relationships");
+
+  // Generate deduplicated 100-question exam pool ensuring at most ONE of each template question type appears
+  const getDeduplicatedExamPool = (allQuestions: Question[], totalCount = 100): Question[] => {
+    const groupPreserveFiles: Question[] = [];
+    const groupCollateralValuation: Question[] = [];
+    const groupKycChecks: Question[] = [];
+    const standardQuestions: Question[] = [];
+
+    for (const q of allQuestions) {
+      if (isPreserveFilesTemplate(q)) {
+        groupPreserveFiles.push(q);
+      } else if (isCollateralValuationTemplate(q)) {
+        groupCollateralValuation.push(q);
+      } else if (isKycChecksTemplate(q)) {
+        groupKycChecks.push(q);
+      } else {
+        standardQuestions.push(q);
+      }
+    }
+
+    // Shuffle each category independently
+    const shuffledPreserve = [...groupPreserveFiles].sort(() => 0.5 - Math.random());
+    const shuffledCollateral = [...groupCollateralValuation].sort(() => 0.5 - Math.random());
+    const shuffledKyc = [...groupKycChecks].sort(() => 0.5 - Math.random());
+    const shuffledStandard = [...standardQuestions].sort(() => 0.5 - Math.random());
+
+    // Pick at most 1 question from each template family
+    const selectedTemplates: Question[] = [];
+    if (shuffledPreserve.length > 0) selectedTemplates.push(shuffledPreserve[0]);
+    if (shuffledCollateral.length > 0) selectedTemplates.push(shuffledCollateral[0]);
+    if (shuffledKyc.length > 0) selectedTemplates.push(shuffledKyc[0]);
+
+    // Fill remaining required slots with standard questions
+    const remainingNeeded = totalCount - selectedTemplates.length;
+    const selectedStandard = shuffledStandard.slice(0, Math.min(remainingNeeded, shuffledStandard.length));
+
+    const combined = [...selectedTemplates, ...selectedStandard];
+
+    // Backfill from leftover templates if needed (unlikely as standard pool is ~380 items)
+    if (combined.length < totalCount) {
+      const leftoverTemplates = [
+        ...shuffledPreserve.slice(1),
+        ...shuffledCollateral.slice(1),
+        ...shuffledKyc.slice(1)
+      ].sort(() => 0.5 - Math.random());
+      combined.push(...leftoverTemplates.slice(0, totalCount - combined.length));
+    }
+
+    // Final random shuffle of the selected questions
+    return combined.sort(() => 0.5 - Math.random());
+  };
+
   // Start Exam Simulation
   const handleStartExam = () => {
-    const pool = [...CPG_QUESTIONS];
-    // Select 100 questions representing all categories.
-    const selected = getRandomSelection(pool, 100);
+    // Select 100 questions representing all categories with at most 1 of each template question type
+    const selected = getDeduplicatedExamPool(CPG_QUESTIONS, 100);
     setQuestions(selected);
     setCurrentIndex(0);
     setAnswers({});
