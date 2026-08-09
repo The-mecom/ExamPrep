@@ -72,7 +72,8 @@ export default function App() {
   }, [theme]);
   
   // Selected configuration for learning session
-  const [sessionMode, setSessionMode] = useState<"exam" | "study" | "review-mode">("study");
+  const [sessionMode, setSessionMode] = useState<"exam" | "study" | "review-mode" | "clump">("study");
+  const [activeClumpId, setActiveClumpId] = useState<string | null>(null);
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [reviewSize, setReviewSize] = useState<"5" | "10" | "15" | "20" | "30" | "50" | "100" | "all">("15");
   
@@ -85,6 +86,17 @@ export default function App() {
   const [topicSearch, setTopicSearch] = useState<string>("");
   const [timeRemaining, setTimeLeft] = useState<number>(3600); // 1 hour for exam
   const [timerActive, setTimerActive] = useState<boolean>(false);
+
+  // Persist clump practice question index position
+  useEffect(() => {
+    if (screen === "quiz" && sessionMode === "clump" && activeClumpId) {
+      try {
+        localStorage.setItem(`clump_last_index_${activeClumpId}`, currentIndex.toString());
+      } catch (e) {
+        console.error("Could not save clump progress", e);
+      }
+    }
+  }, [screen, sessionMode, activeClumpId, currentIndex]);
 
   // Confirmation Modals State
   const [showExitConfirm, setShowExitConfirm] = useState<boolean>(false);
@@ -302,14 +314,23 @@ export default function App() {
     setTimerActive(true);
   };
 
-  // Start Practice on a specific Clump
-  const handleStartClumpPractice = (clumpQuestions: Question[]) => {
-    setQuestions(clumpQuestions);
-    setCurrentIndex(0);
+  // Start Practice on a specific Clump in sequential non-randomized order
+  const handleStartClumpPractice = (
+    clumpQuestions: Question[],
+    _clumpTitle?: string,
+    clumpId?: string,
+    startIndex = 0
+  ) => {
+    if (clumpId) {
+      setActiveClumpId(clumpId);
+    }
+    setQuestions(clumpQuestions); // strictly non-randomized sequential order
+    const safeStart = Math.max(0, Math.min(startIndex, Math.max(0, clumpQuestions.length - 1)));
+    setCurrentIndex(safeStart);
     setAnswers({});
     setCheckedQuestions({});
     setShowQuestionPalette(false);
-    setSessionMode("study");
+    setSessionMode("clump");
     setTimerActive(false);
     setScreen("quiz");
   };
@@ -1144,8 +1165,8 @@ export default function App() {
                   }`}>
                     <span>
                       Active Session:{" "}
-                      <strong className={sessionMode === "review-mode" ? "text-purple-500" : "text-cyan-500"}>
-                        {sessionMode === "exam" ? "Exam Sim" : sessionMode === "study" ? "Study Drills" : "Interactive Review"}
+                      <strong className={sessionMode === "review-mode" ? "text-purple-500" : sessionMode === "clump" ? "text-teal-400" : "text-cyan-500"}>
+                        {sessionMode === "exam" ? "Exam Sim" : sessionMode === "study" ? "Study Drills" : sessionMode === "clump" ? "Sequential Clump Practice" : "Interactive Review"}
                       </strong>
                     </span>
                     <div className="flex items-center gap-3">
@@ -2262,7 +2283,7 @@ export default function App() {
                   <button
                     onClick={() => {
                       setShowExitConfirm(false);
-                      setScreen("home");
+                      setScreen(sessionMode === "clump" ? "clumps" : "home");
                       setTimerActive(false);
                     }}
                     className="flex-1 order-1 sm:order-2 px-5 py-3 bg-rose-600 hover:bg-rose-550 text-white font-bold rounded-xl transition cursor-pointer text-sm shadow-[0_4px_15px_rgba(224,56,86,0.3)]"

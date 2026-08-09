@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   Layers,
   Sparkles,
@@ -16,8 +16,8 @@ import {
   BookOpen,
   CheckCircle2,
   FileText,
-  Filter,
-  ArrowRight
+  RotateCcw,
+  History
 } from "lucide-react";
 import { Question } from "../questions";
 import { ClumpWithQuestions, categorizeQuestionsIntoClumps } from "../lib/clumpUtils";
@@ -25,7 +25,12 @@ import { ClumpWithQuestions, categorizeQuestionsIntoClumps } from "../lib/clumpU
 interface ClumpsExplorerViewProps {
   allQuestions: Question[];
   theme: "dark" | "light";
-  onStartClumpPractice: (questions: Question[], clumpTitle: string) => void;
+  onStartClumpPractice: (
+    questions: Question[],
+    clumpTitle: string,
+    clumpId: string,
+    startIndex?: number
+  ) => void;
   onOpenTutor: (question: Question) => void;
 }
 
@@ -39,9 +44,25 @@ export function ClumpsExplorerView({
   const [activeClumpId, setActiveClumpId] = useState<string | null>("clump-unrelated-distinct");
   const [clumpSearchQuery, setClumpSearchQuery] = useState<string>("");
   const [expandedQuestionIds, setExpandedQuestionIds] = useState<Record<number, boolean>>({});
+  const [savedProgress, setSavedProgress] = useState<Record<string, number>>({});
 
-  // Categorize questions
+  // Categorize questions into stable sequential clumps
   const clumps = useMemo(() => categorizeQuestionsIntoClumps(allQuestions), [allQuestions]);
+
+  // Load saved progress from localStorage
+  useEffect(() => {
+    const loaded: Record<string, number> = {};
+    clumps.forEach((c) => {
+      const val = localStorage.getItem(`clump_last_index_${c.id}`);
+      if (val !== null) {
+        const parsed = parseInt(val, 10);
+        if (!isNaN(parsed) && parsed >= 0) {
+          loaded[c.id] = parsed;
+        }
+      }
+    });
+    setSavedProgress(loaded);
+  }, [clumps]);
 
   // Filter clumps based on selected tab
   const filteredClumps = useMemo(() => {
@@ -55,18 +76,24 @@ export function ClumpsExplorerView({
     return clumps.find((c) => c.id === activeClumpId) || clumps[0];
   }, [clumps, activeClumpId]);
 
+  // Questions inside selected clump with their original index in the clump array
+  const clumpQuestionsWithIndex = useMemo(() => {
+    if (!selectedClump) return [];
+    return selectedClump.questions.map((q, idx) => ({ question: q, clumpIndex: idx }));
+  }, [selectedClump]);
+
   // Questions inside selected clump matching search query
   const searchedClumpQuestions = useMemo(() => {
     if (!selectedClump) return [];
-    if (!clumpSearchQuery.trim()) return selectedClump.questions;
-    const q = clumpSearchQuery.toLowerCase();
-    return selectedClump.questions.filter(
-      (item) =>
-        item.question.toLowerCase().includes(q) ||
-        item.topic.toLowerCase().includes(q) ||
-        item.explanation.toLowerCase().includes(q)
+    if (!clumpSearchQuery.trim()) return clumpQuestionsWithIndex;
+    const query = clumpSearchQuery.toLowerCase();
+    return clumpQuestionsWithIndex.filter(
+      ({ question: item }) =>
+        item.question.toLowerCase().includes(query) ||
+        item.topic.toLowerCase().includes(query) ||
+        item.explanation.toLowerCase().includes(query)
     );
-  }, [selectedClump, clumpSearchQuery]);
+  }, [selectedClump, clumpQuestionsWithIndex, clumpSearchQuery]);
 
   const toggleQuestionExpand = (id: number) => {
     setExpandedQuestionIds((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -104,6 +131,9 @@ export function ClumpsExplorerView({
     .filter((c) => c.type === "pattern")
     .reduce((sum, c) => sum + c.questions.length, 0);
 
+  const activeClumpLastIndex = savedProgress[selectedClump?.id || ""] ?? 0;
+  const hasSavedProgress = savedProgress[selectedClump?.id || ""] !== undefined && activeClumpLastIndex > 0;
+
   return (
     <div className="space-y-8 animate-fadeIn">
       {/* Header Banner */}
@@ -124,7 +154,7 @@ export function ClumpsExplorerView({
               </div>
               <div>
                 <span className="px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">
-                  Question Pattern Mapping Engine
+                  Sequential Question Clumps
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight mt-1">
                   Question Clumps & Pattern Explorer
@@ -133,24 +163,43 @@ export function ClumpsExplorerView({
             </div>
 
             <div className="flex items-center gap-2">
+              {hasSavedProgress ? (
+                <button
+                  onClick={() =>
+                    onStartClumpPractice(
+                      selectedClump.questions,
+                      selectedClump.title,
+                      selectedClump.id,
+                      activeClumpLastIndex
+                    )
+                  }
+                  className="px-5 py-2.5 bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-400 hover:to-emerald-400 text-slate-950 font-bold rounded-xl text-xs transition-all shadow-lg shadow-teal-500/20 flex items-center gap-2 cursor-pointer"
+                >
+                  <History className="w-4 h-4 text-slate-950" />
+                  <span>Resume Q{activeClumpLastIndex + 1}</span>
+                </button>
+              ) : null}
+
               <button
                 onClick={() =>
                   onStartClumpPractice(
                     selectedClump.questions,
-                    `${selectedClump.title} (${selectedClump.questions.length} Qs)`
+                    selectedClump.title,
+                    selectedClump.id,
+                    0
                   )
                 }
                 className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-emerald-500 hover:from-cyan-400 hover:to-emerald-400 text-slate-950 font-bold rounded-xl text-xs transition-all shadow-lg shadow-cyan-500/20 flex items-center gap-2 cursor-pointer"
               >
                 <Play className="w-4 h-4 fill-slate-950" />
-                <span>Practice Active Clump</span>
+                <span>Practice Active Clump (Q1)</span>
               </button>
             </div>
           </div>
 
           <p className={`text-xs sm:text-sm leading-relaxed max-w-3xl ${theme === "dark" ? "text-slate-300" : "text-slate-600"}`}>
-            Track and explore questions mapped into structural template families, pattern clusters, and a dedicated 
-            <strong className="text-teal-400 font-semibold"> Standalone & Unrelated Questions Clump</strong>. Practice specific clumps individually or inspect variable patterns.
+            All questions inside clumps retain a <strong className="text-teal-400">fixed, sequential order without randomization</strong>.
+            Stop at Question #20 and seamlessly pick up right where you left off at any time.
           </p>
 
           {/* Quick Metrics */}
@@ -258,6 +307,9 @@ export function ClumpsExplorerView({
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredClumps.map((clump) => {
           const isSelected = selectedClump.id === clump.id;
+          const lastIdx = savedProgress[clump.id];
+          const hasProgress = lastIdx !== undefined && lastIdx > 0;
+
           return (
             <div
               key={clump.id}
@@ -298,17 +350,24 @@ export function ClumpsExplorerView({
                   >
                     {renderIcon(clump.iconName)}
                   </div>
-                  <h3
-                    className={`text-base font-bold ${
-                      isSelected
-                        ? "text-cyan-400"
-                        : theme === "dark"
-                        ? "text-white"
-                        : "text-slate-900"
-                    }`}
-                  >
-                    {clump.title}
-                  </h3>
+                  <div>
+                    <h3
+                      className={`text-base font-bold ${
+                        isSelected
+                          ? "text-cyan-400"
+                          : theme === "dark"
+                          ? "text-white"
+                          : "text-slate-900"
+                      }`}
+                    >
+                      {clump.title}
+                    </h3>
+                    {hasProgress && (
+                      <span className="text-[10px] text-teal-400 font-semibold flex items-center gap-1 mt-0.5">
+                        <History className="w-3 h-3" /> Last position: Q{lastIdx + 1}
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 <p className={`text-xs leading-relaxed ${theme === "dark" ? "text-slate-400" : "text-slate-600"}`}>
@@ -316,21 +375,37 @@ export function ClumpsExplorerView({
                 </p>
               </div>
 
-              <div className="pt-2 border-t border-slate-800/40 flex items-center justify-between text-xs font-bold">
-                <span className={theme === "dark" ? "text-slate-400" : "text-slate-500"}>
-                  {Object.keys(clump.topicDistribution).length} Topics
+              <div className="pt-2 border-t border-slate-800/40 flex items-center justify-between text-xs font-bold gap-2">
+                <span className={theme === "dark" ? "text-slate-400 text-[11px]" : "text-slate-500 text-[11px]"}>
+                  Sequential Order
                 </span>
 
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onStartClumpPractice(clump.questions, `${clump.title} (${clump.questions.length} Qs)`);
-                  }}
-                  className="px-3 py-1.5 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-400 hover:text-cyan-300 border border-cyan-500/30 transition-all flex items-center gap-1.5 cursor-pointer"
-                >
-                  <Play className="w-3.5 h-3.5" />
-                  <span>Practice</span>
-                </button>
+                <div className="flex items-center gap-1.5">
+                  {hasProgress && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onStartClumpPractice(clump.questions, clump.title, clump.id, lastIdx);
+                      }}
+                      className="px-2.5 py-1 rounded-lg bg-teal-500/15 hover:bg-teal-500/25 text-teal-300 border border-teal-500/30 transition-all text-xs font-bold flex items-center gap-1 cursor-pointer"
+                      title="Resume where you left off"
+                    >
+                      <History className="w-3 h-3" />
+                      <span>Resume Q{lastIdx + 1}</span>
+                    </button>
+                  )}
+
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onStartClumpPractice(clump.questions, clump.title, clump.id, 0);
+                    }}
+                    className="px-3 py-1.5 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-400 hover:text-cyan-300 border border-cyan-500/30 transition-all flex items-center gap-1.5 cursor-pointer"
+                  >
+                    <Play className="w-3.5 h-3.5" />
+                    <span>Start Q1</span>
+                  </button>
+                </div>
               </div>
             </div>
           );
@@ -363,7 +438,7 @@ export function ClumpsExplorerView({
                   <span className={`px-2 py-0.5 text-[10px] font-bold rounded-full border ${selectedClump.badgeColor}`}>
                     {selectedClump.badgeLabel}
                   </span>
-                  <span className="text-xs text-slate-400 font-semibold">{selectedClump.questions.length} Total Questions</span>
+                  <span className="text-xs text-slate-400 font-semibold">{selectedClump.questions.length} Sequential Questions</span>
                 </div>
                 <h3 className={`text-xl font-black ${theme === "dark" ? "text-white" : "text-slate-900"}`}>
                   {selectedClump.title} Inspector
@@ -371,24 +446,43 @@ export function ClumpsExplorerView({
               </div>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2">
+              {hasSavedProgress && (
+                <button
+                  onClick={() =>
+                    onStartClumpPractice(
+                      selectedClump.questions,
+                      selectedClump.title,
+                      selectedClump.id,
+                      activeClumpLastIndex
+                    )
+                  }
+                  className="px-4 py-2 bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-400 hover:to-emerald-400 text-slate-950 font-bold rounded-xl text-xs transition-all shadow-md shadow-teal-500/20 flex items-center gap-2 cursor-pointer"
+                >
+                  <History className="w-4 h-4 text-slate-950" />
+                  <span>Resume at Q{activeClumpLastIndex + 1}</span>
+                </button>
+              )}
+
               <button
                 onClick={() =>
                   onStartClumpPractice(
                     selectedClump.questions,
-                    `${selectedClump.title} (${selectedClump.questions.length} Qs)`
+                    selectedClump.title,
+                    selectedClump.id,
+                    0
                   )
                 }
                 className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-emerald-500 hover:from-cyan-400 hover:to-emerald-400 text-slate-950 font-bold rounded-xl text-xs transition-all shadow-md shadow-cyan-500/20 flex items-center gap-2 cursor-pointer"
               >
                 <Play className="w-4 h-4 fill-slate-950" />
-                <span>Launch Clump Practice Session</span>
+                <span>Start from Q1</span>
               </button>
             </div>
           </div>
 
-          {/* Search Bar for Clump */}
-          <div className="flex items-center gap-3">
+          {/* Search & Sequential Indicator Bar */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div className="relative flex-1">
               <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
               <input
@@ -403,8 +497,11 @@ export function ClumpsExplorerView({
                 }`}
               />
             </div>
-            <div className="text-xs font-bold text-slate-400 whitespace-nowrap">
-              Showing {searchedClumpQuestions.length} of {selectedClump.questions.length}
+            <div className="text-xs font-bold text-slate-400 flex items-center gap-2 whitespace-nowrap">
+              <span className="px-2.5 py-1 rounded-lg bg-slate-800/80 text-teal-300 border border-slate-700">
+                Fixed Sequential Sequence
+              </span>
+              <span>Showing {searchedClumpQuestions.length} of {selectedClump.questions.length}</span>
             </div>
           </div>
 
@@ -415,26 +512,38 @@ export function ClumpsExplorerView({
                 No questions found matching &quot;{clumpSearchQuery}&quot; in this clump.
               </div>
             ) : (
-              searchedClumpQuestions.map((q, idx) => {
+              searchedClumpQuestions.map(({ question: q, clumpIndex }) => {
                 const isExpanded = expandedQuestionIds[q.id];
+                const isLastSaved = activeClumpLastIndex === clumpIndex;
+
                 return (
                   <div
                     key={q.id}
                     className={`p-4 rounded-2xl border transition-all ${
-                      theme === "dark"
+                      isLastSaved
+                        ? "bg-teal-500/10 border-teal-500/50 ring-1 ring-teal-500/30"
+                        : theme === "dark"
                         ? "bg-slate-925 border-slate-800/80 hover:border-slate-700"
                         : "bg-slate-50 border-slate-200 hover:border-slate-300"
                     }`}
                   >
                     <div className="flex items-start justify-between gap-3 cursor-pointer" onClick={() => toggleQuestionExpand(q.id)}>
-                      <div className="space-y-1 flex-1">
-                        <div className="flex items-center gap-2">
+                      <div className="space-y-1.5 flex-1">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-[10px] font-black px-2 py-0.5 rounded bg-teal-500/20 text-teal-300 border border-teal-500/30">
+                            Clump Q{clumpIndex + 1}
+                          </span>
                           <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-                            #{q.id}
+                            Bank #{q.id}
                           </span>
                           <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${theme === "dark" ? "bg-slate-800 text-slate-300" : "bg-slate-200 text-slate-700"}`}>
                             {q.topic}
                           </span>
+                          {isLastSaved && (
+                            <span className="text-[10px] font-black px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 flex items-center gap-1">
+                              <History className="w-3 h-3" /> Stopped Here
+                            </span>
+                          )}
                         </div>
                         <p className={`text-xs font-semibold leading-relaxed ${theme === "dark" ? "text-slate-200" : "text-slate-800"}`}>
                           {q.question}
@@ -445,13 +554,29 @@ export function ClumpsExplorerView({
                         <button
                           onClick={(e) => {
                             e.stopPropagation();
+                            onStartClumpPractice(
+                              selectedClump.questions,
+                              selectedClump.title,
+                              selectedClump.id,
+                              clumpIndex
+                            );
+                          }}
+                          className="px-2.5 py-1 rounded-lg bg-teal-500/15 text-teal-300 hover:bg-teal-500/30 transition-all text-[11px] font-bold flex items-center gap-1 cursor-pointer"
+                          title={`Practice from Q${clumpIndex + 1}`}
+                        >
+                          <Play className="w-3 h-3 fill-teal-300" />
+                          <span>Practice from Q{clumpIndex + 1}</span>
+                        </button>
+
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
                             onOpenTutor(q);
                           }}
                           className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/20 transition-all text-xs font-bold flex items-center gap-1 cursor-pointer"
                           title="Ask AI Tutor about this question"
                         >
                           <Sparkles className="w-3.5 h-3.5" />
-                          <span className="hidden sm:inline">AI Tutor</span>
                         </button>
 
                         <button className="p-1 text-slate-400 hover:text-white">
@@ -526,3 +651,4 @@ export function ClumpsExplorerView({
     </div>
   );
 }
+
