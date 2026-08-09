@@ -24,10 +24,12 @@ import {
   Search,
   Grid,
   X,
-  Play
+  Play,
+  Layers
 } from "lucide-react";
 import { CPG_QUESTIONS, Question } from "./questions";
 import { AITutorModal } from "./components/AITutorModal";
+import { ClumpsExplorerView } from "./components/ClumpsExplorerView";
 
 interface SessionResult {
   date: string;
@@ -47,7 +49,7 @@ export default function App() {
   });
 
   // Navigation State
-  const [screen, setScreen] = useState<"home" | "topic" | "quiz" | "review" | "review-complete" | "search">("home");
+  const [screen, setScreen] = useState<"home" | "topic" | "quiz" | "review" | "review-complete" | "search" | "clumps">("home");
 
   // Search Mode State
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -298,6 +300,18 @@ export default function App() {
     setSessionMode("exam");
     setScreen("quiz");
     setTimerActive(true);
+  };
+
+  // Start Practice on a specific Clump
+  const handleStartClumpPractice = (clumpQuestions: Question[]) => {
+    setQuestions(clumpQuestions);
+    setCurrentIndex(0);
+    setAnswers({});
+    setCheckedQuestions({});
+    setShowQuestionPalette(false);
+    setSessionMode("study");
+    setTimerActive(false);
+    setScreen("quiz");
   };
 
   // Proceed to Topic Selector
@@ -567,6 +581,28 @@ export default function App() {
           </div>
           
           <div className="flex items-center space-x-3">
+            {/* Clumps & Pattern Explorer Button */}
+            <button
+              onClick={() => {
+                if (screen === "quiz") {
+                  setShowExitConfirm(true);
+                } else {
+                  setScreen("clumps");
+                }
+              }}
+              className={`px-3 py-1.5 rounded-xl border text-xs font-bold transition-all flex items-center gap-2 cursor-pointer ${
+                screen === "clumps"
+                  ? "bg-cyan-500/20 border-cyan-500/40 text-cyan-400"
+                  : theme === "dark"
+                    ? "bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-850 hover:border-slate-700 hover:text-white"
+                    : "bg-white border-slate-300 text-slate-700 hover:bg-slate-50 hover:border-slate-400 shadow-xs"
+              }`}
+              title="Question Clumps & Pattern Explorer"
+            >
+              <Layers className="w-4 h-4 text-cyan-500" />
+              <span className="hidden sm:inline">Clumps Explorer</span>
+            </button>
+
             {/* Search Questions Button */}
             <button
               onClick={() => {
@@ -668,7 +704,7 @@ export default function App() {
               </div>
 
               {/* Mode Selectors */}
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
                 {/* Card Mode 1: Exam */}
                 <div id="mode-exam-card" className={`rounded-2xl p-6 border shadow-md hover:border-cyan-500/40 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden ${
@@ -696,7 +732,38 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* Card Mode 2: Study */}
+                {/* Card Mode 2: Clumps & Pattern Explorer */}
+                <div id="mode-clumps-card" className={`rounded-2xl p-6 border shadow-md hover:border-teal-500/40 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden ${
+                  theme === "dark" 
+                    ? "bg-slate-950/60 backdrop-blur-md border-slate-800 text-slate-100" 
+                    : "bg-white border-slate-200 text-slate-900"
+                }`}>
+                  <div className="absolute -right-12 -top-12 w-24 h-24 bg-teal-500/5 blur-xl rounded-full" />
+                  <div className="space-y-4">
+                    <div className="bg-teal-500/10 border border-teal-500/20 w-12 h-12 rounded-xl flex items-center justify-center text-teal-400">
+                      <Layers className="w-6 h-6" />
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="px-2 py-0.5 text-[10px] font-black uppercase tracking-wider rounded bg-teal-500/20 text-teal-300 border border-teal-500/30">
+                        New Clump Mode
+                      </span>
+                    </div>
+                    <h3 className={`text-xl font-bold ${theme === "dark" ? "text-slate-100" : "text-slate-900"}`}>Question Clumps & Patterns</h3>
+                    <p className={`text-sm leading-relaxed ${theme === "dark" ? "text-slate-400" : "text-slate-600"}`}>
+                      Explore mapped question clumps: study repetitive template groups, pattern clusters, or focus strictly on the <strong className="text-teal-400 font-semibold">Standalone & Unrelated Questions Clump</strong>.
+                    </p>
+                  </div>
+                  <div className="pt-6">
+                    <button 
+                      onClick={() => setScreen("clumps")}
+                      className="w-full bg-gradient-to-r from-teal-600 to-emerald-600 hover:brightness-110 text-white font-bold py-3 rounded-xl transition duration-155 flex justify-center items-center gap-2 group-hover:scale-[1.01] cursor-pointer shadow-[0_4px_15px_rgba(20,184,166,0.3)]"
+                    >
+                      <Layers className="w-4 h-4 text-teal-200" /> Explore Question Clumps
+                    </button>
+                  </div>
+                </div>
+
+                {/* Card Mode 3: Study */}
                 <div id="mode-study-card" className={`rounded-2xl p-6 border shadow-md hover:border-cyan-500/40 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden ${
                   theme === "dark" 
                     ? "bg-slate-950/60 backdrop-blur-md border-slate-800 text-slate-100" 
@@ -722,7 +789,7 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* Card Mode 3: Interactive Review */}
+                {/* Card Mode 4: Interactive Review */}
                 <div id="mode-review-card" className={`rounded-2xl p-6 border shadow-md hover:border-purple-500/40 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden ${
                   theme === "dark" 
                     ? "bg-slate-950/60 backdrop-blur-md border-slate-800 text-slate-100" 
@@ -748,7 +815,7 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* Card Mode 4: Question Search */}
+                {/* Card Mode 5: Question Search */}
                 <div id="mode-search-card" className={`rounded-2xl p-6 border shadow-md hover:border-emerald-500/40 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden ${
                   theme === "dark" 
                     ? "bg-slate-950/60 backdrop-blur-md border-slate-800 text-slate-100" 
@@ -2122,7 +2189,7 @@ export default function App() {
                     disabled={searchPage === totalSearchPages}
                     className={`px-4 py-2 text-xs font-bold rounded-xl border transition cursor-pointer flex items-center gap-1.5 disabled:opacity-40 disabled:cursor-not-allowed ${
                       theme === "dark"
-                        ? "bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800"
+                        ? "bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-850"
                         : "bg-slate-100 border-slate-300 text-slate-700 hover:bg-slate-200"
                     }`}
                   >
@@ -2130,6 +2197,24 @@ export default function App() {
                   </button>
                 </div>
               )}
+            </motion.div>
+          )}
+
+          {/* ================= SCREEN 6: QUESTION CLUMPS EXPLORER ================= */}
+          {screen === "clumps" && (
+            <motion.div
+              key="clumps"
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -15 }}
+              transition={{ duration: 0.3 }}
+            >
+              <ClumpsExplorerView
+                allQuestions={CPG_QUESTIONS}
+                theme={theme}
+                onStartClumpPractice={handleStartClumpPractice}
+                onOpenTutor={(q) => handleOpenTutor(q)}
+              />
             </motion.div>
           )}
 
