@@ -5,6 +5,7 @@ import { BANK_E_QUESTIONS } from "./questions/bankE";
 import { BANK_F_QUESTIONS } from "./questions/bankF";
 import { BANK_G_QUESTIONS } from "./questions/bankG";
 import { BANK_H_QUESTIONS } from "./questions/bankH";
+import { BANK_I_QUESTIONS } from "./questions/bankI";
 
 export interface Question {
   id: number;
@@ -2201,6 +2202,7 @@ export const CPG_QUESTIONS: Question[] = [
   ...BANK_E_QUESTIONS,
   ...BANK_F_QUESTIONS,
   ...BANK_G_QUESTIONS,
-  ...BANK_H_QUESTIONS
+  ...BANK_H_QUESTIONS,
+  ...BANK_I_QUESTIONS
 ];
 

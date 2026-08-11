@@ -54,10 +54,74 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
       q.question.toLowerCase().includes("comprehensive kyc checks")
   },
   {
+    id: "clump-insider-policy",
+    title: "Insider & Related Party Lending",
+    type: "pattern",
+    badgeLabel: "Policy Pattern",
+    badgeColor: "bg-rose-500/10 text-rose-400 border-rose-500/30",
+    iconName: "UserCheck",
+    description: "Questions covering insider credit facilities, director borrowing limits, BOFIA restrictions, related party disclosures, and dividend withholding.",
+    matchFn: (q) => {
+      const text = q.question.toLowerCase();
+      return (
+        text.includes("insider") ||
+        text.includes("director") ||
+        text.includes("related party") ||
+        text.includes("bofia") ||
+        text.includes("significant shareholder")
+      );
+    }
+  },
+  {
+    id: "clump-specialized-lending",
+    title: "Specialized, Agric & Object Financing",
+    type: "pattern",
+    badgeLabel: "Policy Pattern",
+    badgeColor: "bg-lime-500/10 text-lime-400 border-lime-500/30",
+    iconName: "Target",
+    description: "Questions on agricultural schemes (CACS, DCRR, NIRSAL, tree crops), project finance, object finance (vessels, aircraft), and Reserve-Based Lending (RBL).",
+    matchFn: (q) => {
+      const text = q.question.toLowerCase();
+      return (
+        text.includes("agric") ||
+        text.includes("farm") ||
+        text.includes("cacs") ||
+        text.includes("dcrr") ||
+        text.includes("nirsal") ||
+        text.includes("object finance") ||
+        text.includes("vessel") ||
+        text.includes("rbl") ||
+        text.includes("project finance") ||
+        text.includes("tree crop")
+      );
+    }
+  },
+  {
+    id: "clump-recovery-waivers",
+    title: "Remedial Assets, Recoveries & Waivers",
+    type: "pattern",
+    badgeLabel: "Policy Pattern",
+    badgeColor: "bg-indigo-500/10 text-indigo-400 border-indigo-500/30",
+    iconName: "AlertTriangle",
+    description: "Questions on non-performing assets, bad debt write-offs, interest waivers, Criticized Assets Committee (CAC), and recovery procedures.",
+    matchFn: (q) => {
+      const text = q.question.toLowerCase();
+      return (
+        text.includes("write-off") ||
+        text.includes("write off") ||
+        text.includes("waiver") ||
+        text.includes("remedial") ||
+        text.includes("recovery") ||
+        text.includes("criticized asset") ||
+        text.includes("cac")
+      );
+    }
+  },
+  {
     id: "clump-tenors-limits",
     title: "Tenors, Credit Limits & Exposure Caps",
     type: "pattern",
-    badgeLabel: "Pattern Cluster",
+    badgeLabel: "Policy Pattern",
     badgeColor: "bg-blue-500/10 text-blue-400 border-blue-500/30",
     iconName: "Clock",
     description: "Questions focused on allowable facility tenors, single obligor limits, revolving credit windows, and exposure limits.",
@@ -66,10 +130,12 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
       return (
         text.includes("maximum tenor") ||
         text.includes("tenor permitted") ||
+        text.includes("tenor of") ||
         text.includes("credit limit") ||
         text.includes("exposure limit") ||
         text.includes("single obligor limit") ||
-        text.includes("prudential limit")
+        text.includes("prudential limit") ||
+        text.includes("one obligor")
       );
     }
   },
@@ -77,7 +143,7 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
     id: "clump-classification-impairment",
     title: "Credit Classification & Impairment",
     type: "pattern",
-    badgeLabel: "Pattern Cluster",
+    badgeLabel: "Policy Pattern",
     badgeColor: "bg-purple-500/10 text-purple-400 border-purple-500/30",
     iconName: "AlertTriangle",
     description: "Questions evaluating loan classification triggers (Sub-Standard, Doubtful, Lost, Watchlist), DPD thresholds, and provisioning rules.",
@@ -87,11 +153,13 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
         text.includes("classified as") ||
         text.includes("past due") ||
         text.includes("sub-standard") ||
+        text.includes("substandard") ||
         text.includes("doubtful") ||
         text.includes("watchlist") ||
         text.includes("days past due") ||
         text.includes("impairment") ||
-        text.includes("provisioning")
+        text.includes("provisioning") ||
+        text.includes("loan loss")
       );
     }
   },
@@ -99,7 +167,7 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
     id: "clump-approval-governance",
     title: "Approval Authority & Governance",
     type: "pattern",
-    badgeLabel: "Pattern Cluster",
+    badgeLabel: "Policy Pattern",
     badgeColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/30",
     iconName: "Building2",
     description: "Questions testing approval limits, management/board credit committees, delegated authority thresholds, and policy exceptions.",
@@ -111,7 +179,8 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
         text.includes("management credit committee") ||
         text.includes("credit committee") ||
         text.includes("delegated authority") ||
-        text.includes("approved by")
+        text.includes("approved by") ||
+        text.includes("approval limit")
       );
     }
   },
@@ -119,7 +188,7 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
     id: "clump-rac-target-market",
     title: "Risk Acceptance Criteria & Target Market",
     type: "pattern",
-    badgeLabel: "Pattern Cluster",
+    badgeLabel: "Policy Pattern",
     badgeColor: "bg-cyan-500/10 text-cyan-400 border-cyan-500/30",
     iconName: "Target",
     description: "Questions covering Target Market definitions, minimum obligor ratings, risk acceptance criteria (RAC), and sector benchmarks.",
@@ -130,7 +199,8 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
         text.includes("risk acceptance criteria") ||
         text.includes("obligor rating") ||
         text.includes("credit rating") ||
-        text.includes("credit score")
+        text.includes("credit score") ||
+        text.includes("tm/rac")
       );
     }
   }

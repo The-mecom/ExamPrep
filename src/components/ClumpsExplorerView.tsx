@@ -284,7 +284,7 @@ export function ClumpsExplorerView({
             }`}
           >
             <FolderArchive className="w-3.5 h-3.5 text-amber-400" />
-            <span>Repetitive Templates (3)</span>
+            <span>Repetitive Templates ({clumps.filter((c) => c.type === "template").length})</span>
           </button>
 
           <button
@@ -298,7 +298,7 @@ export function ClumpsExplorerView({
             }`}
           >
             <Clock className="w-3.5 h-3.5 text-blue-400" />
-            <span>Policy Patterns (4)</span>
+            <span>Policy Patterns ({clumps.filter((c) => c.type === "pattern").length})</span>
           </button>
         </div>
       </div>
