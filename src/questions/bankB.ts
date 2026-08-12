@@ -102,16 +102,6 @@ export const BANK_B_QUESTIONS: Question[] = [
     page: "Facility Types"
   },
   {
-    id: 226,
-    question: "Acceptance of an advised credit facility by a corporate client must be supported by which of the following?",
-    answer: "Board Resolution",
-    options: ["Relationship Manager recommendation", "Board Resolution", "Legal opinion memo", "Operations team sign-off"],
-    correctIndex: 1,
-    topic: "Credit Process & Origination",
-    explanation: "Corporate clients must provide a Board Resolution to legally accept credit terms.",
-    page: "Documentation Requirements"
-  },
-  {
     id: 227,
     question: "The tenor of revolving credits must not exceed how many years under the CPG?",
     answer: "3 years",

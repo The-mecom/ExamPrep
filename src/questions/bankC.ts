@@ -112,16 +112,6 @@ export const BANK_C_QUESTIONS: Question[] = [
     page: "Invoice Discounting Program"
   },
   {
-    id: 262,
-    question: "What is the primary purpose of the Invoice Discounting program?",
-    answer: "To bridge the short-term working capital gap of vendors before they receive principal payments",
-    options: ["To buy equipment", "To purchase real estate", "To bridge the short-term working capital gap of vendors before they receive principal payments", "To fund speculative stock market trading"],
-    correctIndex: 2,
-    topic: "Specialized Lending",
-    explanation: "It is designed strictly to turn unpaid invoices into immediate working capital.",
-    page: "Invoice Discounting Program"
-  },
-  {
     id: 263,
     question: "What is the standard payment terms/clearing window for corporate principals to settle invoice payments?",
     answer: "30 to 90 days",

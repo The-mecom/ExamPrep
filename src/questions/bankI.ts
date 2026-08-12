@@ -17,21 +17,6 @@ export const BANK_I_QUESTIONS: Question[] = [
     page: "CPG Section 6.6.1 (p. 128)"
   },
   {
-    "id": 772,
-    "question": "Where is a credit call meeting between the Relationship Manager and the borrowing customer most suitable to take place?",
-    "answer": "At the customer's business locations as well as at Bank premises",
-    "options": [
-      "At informal social gatherings only",
-      "At the customer's business locations as well as at Bank premises",
-      "Exclusively via online social media",
-      "At third-party competitor branches"
-    ],
-    "correctIndex": 1,
-    "topic": "Monitoring & Internal Controls",
-    "explanation": "CPG 6.6.1 states that officers must maintain direct contact through periodic visits to business locations as well as at Bank premises.",
-    "page": "CPG Section 6.6.1 (p. 128)"
-  },
-  {
     "id": 773,
     "question": "What determines the frequency of credit calls to borrowing customers?",
     "answer": "Risk differentiation (more frequent visits for riskier obligors or large exposures)",
@@ -450,5 +435,30 @@ export const BANK_I_QUESTIONS: Question[] = [
     "topic": "Specialized Lending",
     "explanation": "CPG 10.6.2 & 10.6.11 specify that the borrower must provide 10% to 30% equity contribution for Object Finance transactions.",
     "page": "CPG Section 10.6.2 (p. 232) & 10.6.11 (p. 239)"
+  },
+  {
+    "id": 801,
+    "question": "Customer account details can only be communicated to a third party if and only if the customer cannot be reached on phone.",
+    "answer": "False",
+    "options": ["True", "False"],
+    "correctIndex": 1,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "Under Access Bank duty of confidentiality guidelines and bank secrecy policies, customer account information is strictly confidential and cannot be disclosed to third parties regardless of whether the customer is reachable by phone, except upon written consent of the customer or under a valid legal order.",
+    "page": "CPG Duty of Confidentiality & Internal Controls"
+  },
+  {
+    "id": 802,
+    "question": "Which of the following is an exceptional credit extension to certain companies and/or individuals having special relationships with the Bank, and is already subject to certain restrictions by law?",
+    "answer": "Insider Lending / Credit facilities to Directors, Significant Shareholders, and Related Parties",
+    "options": [
+      "Commercial Paper Intermediation",
+      "Insider Lending / Credit facilities to Directors, Significant Shareholders, and Related Parties",
+      "Equipment Leasing to Corporate Clients",
+      "Standard Commercial Overdraft"
+    ],
+    "correctIndex": 1,
+    "topic": "Insider Exposures & Governance",
+    "explanation": "Under BOFIA and CPG Section 5.2.6, credit extensions to directors, key executives, significant shareholders, and related entities (insiders) are exceptional transactions governed by statutory legal restrictions, including mandatory disclosures, strict caps, and prior CBN approval for unsecured lines exceeding N50,000.",
+    "page": "CPG Section 5.2.6 (p. 52-55)"
   }
 ];

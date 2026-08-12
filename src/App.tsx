@@ -187,7 +187,7 @@ export default function App() {
     setSearchPage(1);
   }, [searchQuery, searchTopicFilter]);
 
-  // Filtered search questions logic
+  // Filtered search questions logic with intelligent multi-term fallback
   const filteredSearchQuestions = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
     return CPG_QUESTIONS.filter((q) => {
@@ -196,14 +196,24 @@ export default function App() {
       }
       if (!query) return true;
 
-      const matchQuestion = q.question.toLowerCase().includes(query);
-      const matchTopic = q.topic.toLowerCase().includes(query);
-      const matchExplanation = q.explanation.toLowerCase().includes(query);
-      const matchPage = q.page.toLowerCase().includes(query);
-      const matchOptions = q.options.some((opt) => opt.toLowerCase().includes(query));
-      const matchId = `q${q.id}`.includes(query) || q.id.toString() === query;
+      const fullContent = `${q.question} ${q.topic} ${q.explanation} ${q.page} ${q.options.join(" ")} Q${q.id}`.toLowerCase();
 
-      return matchQuestion || matchTopic || matchExplanation || matchPage || matchOptions || matchId;
+      // 1. Direct exact substring match
+      if (fullContent.includes(query)) {
+        return true;
+      }
+
+      // 2. Token-based multi-keyword matching for long or pasted queries
+      const stopWords = new Set(["and", "the", "for", "with", "that", "this", "from", "shall", "under", "have", "been", "into", "each"]);
+      const tokens = query
+        .replace(/[^a-z0-9\s]/gi, " ")
+        .split(/\s+/)
+        .filter((t) => t.length >= 3 && !stopWords.has(t));
+
+      if (tokens.length === 0) return false;
+
+      // Check if all significant query tokens exist in the question content
+      return tokens.every((token) => fullContent.includes(token));
     });
   }, [searchQuery, searchTopicFilter]);
 

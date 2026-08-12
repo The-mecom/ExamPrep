@@ -6,6 +6,12 @@ import { BANK_F_QUESTIONS } from "./questions/bankF";
 import { BANK_G_QUESTIONS } from "./questions/bankG";
 import { BANK_H_QUESTIONS } from "./questions/bankH";
 import { BANK_I_QUESTIONS } from "./questions/bankI";
+import { BANKJ_QUESTIONS } from "./questions/bankJ";
+import { BANKK_QUESTIONS } from "./questions/bankK";
+import { BANKL_QUESTIONS } from "./questions/bankL";
+import { BANKM_QUESTIONS } from "./questions/bankM";
+import { BANKN_QUESTIONS } from "./questions/bankN";
+import { BANKO_QUESTIONS } from "./questions/bankO";
 
 export interface Question {
   id: number;
@@ -745,16 +751,6 @@ export const CPG_QUESTIONS: Question[] = [
     topic: "Regulatory & CBN Guidelines",
     explanation: "Prudential Guidelines section 3.21: The approval of CBN is required for write-off of all insider or related party credits.",
     page: "CPG Section 5.2.6.10: Insider Write-off (p. 57)"
-  },
-  {
-    id: 71,
-    question: "What is the maximum tenor permitted for revolving credit facilities under Access Bank CPG guidelines?",
-    answer: "3 years",
-    options: ["1 year", "2 years", "3 years", "5 years"],
-    correctIndex: 2,
-    topic: "Credit Products & Facilities",
-    explanation: "credit facilities may be granted subject to the provisions of the bank’s risk management policies. The tenor of revolving credit must not exceed 3 years.",
-    page: "CPG Pg. 27"
   },
   {
     id: 72,
@@ -1568,13 +1564,13 @@ export const CPG_QUESTIONS: Question[] = [
   },
   {
     id: 153,
-    question: "Approvals under credit programs need not be within approved global exposure and maximum individual exposure limits.",
+    question: "Approvals under credit programs need not be within approved global exposure and maximum individual exposure limits and shall be exercised within the market facing business units, subject to approval limits as may be set by the bank for each product program.",
     answer: "True",
     options: ["True", "False"],
     correctIndex: 0,
     topic: "Credit Products & Facilities",
-    explanation: "Although the Q&A marks this as True, the actual CPG policy states that approvals under credit programs SHALL be within approved global exposure and maximum individual exposure limits.",
-    page: "Credit Program Approval Section"
+    explanation: "Although the test question bank lists this as True, note that CPG policy Section 6.2.10.6.2(A) stipulates that approvals under credit programs SHALL be within approved global exposure and maximum individual exposure limits.",
+    page: "CPG Section 6.2.10.6.2(A) (p. 64-65 / 108-109)"
   },
   {
     id: 154,
@@ -1668,13 +1664,13 @@ export const CPG_QUESTIONS: Question[] = [
   },
   {
     id: 163,
-    question: "When the amount of a credit facility is reduced or cancelled, the Relationship Manager must promptly advise the applicable credit administration area.",
+    question: "When the amount of a credit facility is reduced or cancelled, or the tenor is shortened, the Relationship Manager must promptly advise the applicable credit administration area in writing to update credit systems.",
     answer: "True",
     options: ["True", "False"],
     correctIndex: 0,
     topic: "Risk Measurement & Limits",
-    explanation: "To properly track exposure, the Relationship Manager must immediately inform the credit administration area in writing whenever a facility is reduced or cancelled.",
-    page: "Risk Reductions Section"
+    explanation: "To properly track exposure and maintain accurate system balances, the Relationship Manager must immediately inform the credit administration area in writing whenever a facility is reduced, cancelled, or its tenor is shortened.",
+    page: "CPG Risk Reductions Section"
   },
   {
     id: 164,
@@ -2057,16 +2053,6 @@ export const CPG_QUESTIONS: Question[] = [
     page: "Overdrafts Section"
   },
   {
-    id: 202,
-    question: "What is the maximum tenor permitted for placements with approved banks?",
-    answer: "360 days",
-    options: ["90 days", "180 days", "360 days", "2 years"],
-    correctIndex: 2,
-    topic: "Credit Products & Facilities",
-    explanation: "Placements with other financial institutions are restricted to a 360-day maximum.",
-    page: "Interbank Placements"
-  },
-  {
     id: 203,
     question: "Access Bank policy prohibits financing of Armament or Gambling loans unless there is GMD approval.",
     answer: "False",
@@ -2124,16 +2110,6 @@ export const CPG_QUESTIONS: Question[] = [
     correctIndex: 1,
     topic: "Specialized Lending",
     explanation: "It bridges the working capital gap, giving the customer immediate cash while they wait for the principal to process the invoice.",
-    page: "Invoice Discounting Program"
-  },
-  {
-    id: 209,
-    question: "How long does it usually take between performance of contract on Invoice Discounting and receipt of payment?",
-    answer: "30-90 days",
-    options: ["1-10 days", "10-30 days", "30-90 days", "90-180 days"],
-    correctIndex: 2,
-    topic: "Specialized Lending",
-    explanation: "Standard corporate payment terms dictate that principals typically pay approved invoices within a 30 to 90-day window.",
     page: "Invoice Discounting Program"
   },
   {
@@ -2203,6 +2179,12 @@ export const CPG_QUESTIONS: Question[] = [
   ...BANK_F_QUESTIONS,
   ...BANK_G_QUESTIONS,
   ...BANK_H_QUESTIONS,
-  ...BANK_I_QUESTIONS
+  ...BANK_I_QUESTIONS,
+  ...BANKJ_QUESTIONS,
+  ...BANKK_QUESTIONS,
+  ...BANKL_QUESTIONS,
+  ...BANKM_QUESTIONS,
+  ...BANKN_QUESTIONS,
+  ...BANKO_QUESTIONS
 ];
 
