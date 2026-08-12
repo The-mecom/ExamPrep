@@ -237,344 +237,406 @@ export const BANKJ_QUESTIONS: Question[] = [
   },
   {
     "id": 818,
-    "question": "How many components are there to each customer credit file?",
-    "answer": "1 How often are these reports generated? A B C D E pg114",
+    "question": "How many components are there to each customer credit file under CPG guidelines?",
+    "answer": "4",
     "options": [
-      "5",
-      "4",
+      "1",
+      "2",
       "3",
-      "2. 149",
-      "1 How often are these reports generated? A B C D E pg114"
+      "4"
     ],
-    "correctIndex": 4,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"1 How often are these reports generated? A B C D E pg114\".",
-    "page": "CPG Manual pg114"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "Under Access Bank CPG guidelines (p. 149), each customer credit file consists of 4 main components.",
+    "page": "CPG Section 6.1 (p. 149)"
   },
   {
     "id": 819,
-    "question": "Unauthorized overdraft report Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Unauthorized Overdraft Report under Access Bank CPG guidelines?",
+    "answer": "Daily",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
     "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q22 and CPG Section 6.1 (p. 114), Unauthorized Overdraft reports are generated and reviewed on a Daily basis.",
+    "page": "CPM Test Q22 / CPG Section 6.1"
   },
   {
     "id": 820,
-    "question": "Excess over approved limit Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Excess Over Approved Limit Report under Access Bank CPG guidelines?",
+    "answer": "Daily",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
     "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q23 and CPG Section 6.1 (p. 114), reports on excesses over approved limits are generated Daily.",
+    "page": "CPM Test Q23 / CPG Section 6.1"
   },
   {
     "id": 821,
-    "question": "Expiring facilities Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Expiring Facilities Report under Access Bank CPG guidelines?",
+    "answer": "Monthly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 2,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q24 and CPG Section 6.1 (p. 114), reports on expiring facilities are produced on a Monthly basis.",
+    "page": "CPM Test Q24 / CPG Section 6.1"
   },
   {
     "id": 822,
-    "question": "Expired facilities Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Expired Facilities Report under Access Bank CPG guidelines?",
+    "answer": "Monthly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 2,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q25 and CPG Section 6.1 (p. 114), reports on expired facilities are produced Monthly.",
+    "page": "CPM Test Q25 / CPG Section 6.1"
   },
   {
     "id": 823,
-    "question": "Central Liability report Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Central Liability Report under Access Bank CPG guidelines?",
+    "answer": "Monthly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 2,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q26 and CPG Section 6.1 (p. 114), the Central Liability report is prepared Monthly.",
+    "page": "CPM Test Q26 / CPG Section 6.1"
   },
   {
     "id": 824,
-    "question": "Maturing obligations report Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Maturing Obligations Report under Access Bank CPG guidelines?",
+    "answer": "Monthly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 2,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q27 and CPG Section 6.1 (p. 114), reports on maturing obligations are submitted Monthly.",
+    "page": "CPM Test Q27 / CPG Section 6.1"
   },
   {
     "id": 825,
-    "question": "Review of security documentation Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Review of Security Documentation under Access Bank CPG guidelines?",
+    "answer": "Quarterly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q28 and CPG Section 6.1 (p. 114), reviews of security documentation are reported Quarterly.",
+    "page": "CPM Test Q28 / CPG Section 6.1"
   },
   {
     "id": 826,
-    "question": "Portfolio review report Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Portfolio Review Report under Access Bank CPG guidelines?",
+    "answer": "Quarterly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q29 and CPG Section 6.1 (p. 114), the Portfolio Review report is produced Quarterly.",
+    "page": "CPM Test Q29 / CPG Section 6.1"
   },
   {
     "id": 827,
-    "question": "Collateral review Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Collateral Review under Access Bank CPG guidelines?",
+    "answer": "Quarterly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q30 and CPG Section 6.1 (p. 114), Collateral Review reports are generated Quarterly.",
+    "page": "CPM Test Q30 / CPG Section 6.1"
   },
   {
     "id": 828,
-    "question": "Recovery status report Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Recovery Status Report under Access Bank CPG guidelines?",
+    "answer": "Quarterly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q31 and CPG Section 6.1 (p. 114), Recovery Status reporting is carried out Quarterly.",
+    "page": "CPM Test Q31 / CPG Section 6.1"
   },
   {
     "id": 829,
-    "question": "Recoveries made report Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for the Recoveries Made Report under Access Bank CPG guidelines?",
+    "answer": "Quarterly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q32 and CPG Section 6.1 (p. 114), reports on recoveries made are submitted Quarterly.",
+    "page": "CPM Test Q32 / CPG Section 6.1"
   },
   {
     "id": 830,
-    "question": "Reserves and write offs Dly Weekly Monthly Qtly Annually",
-    "answer": "True",
+    "question": "What is the required reporting frequency for Reserves and Write-Offs reporting under Access Bank CPG guidelines?",
+    "answer": "Quarterly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q33 (marked Qtly in red) and CPG Section 6.1 (p. 114), Reserves and write-offs are reported Quarterly.",
+    "page": "CPM Test Q33 / CPG Section 6.1"
   },
   {
     "id": 831,
-    "question": "Account throughput reporting Dly Weekly Monthly Qtly Annually A B C D",
-    "answer": "True",
+    "question": "What is the required reporting frequency for Account Throughput Reporting under Access Bank CPG guidelines?",
+    "answer": "Quarterly",
     "options": [
-      "True",
-      "False"
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Annually"
     ],
-    "correctIndex": 0,
-    "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Monitoring & Internal Controls",
+    "explanation": "According to Access Bank CPM Test Q34 (marked Qtly in red) and CPG Section 6.1 (p. 114), Account throughput reporting is submitted Quarterly.",
+    "page": "CPM Test Q34 / CPG Section 6.1"
   },
   {
     "id": 832,
-    "question": "Portfolio Review report Biz.Units MCC Biz.Units /MCC CAC",
-    "answer": "True",
+    "question": "To which body or committee is the Portfolio Review Report submitted under Access Bank CPG guidelines?",
+    "answer": "MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Internal Controls & Compliance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 1,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q35 (marked B/MCC in red), the Portfolio Review report is submitted to the Management Credit Committee (MCC).",
+    "page": "CPM Test Q35 / CPG Section 6.1"
   },
   {
     "id": 833,
-    "question": "Collateral Review “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is the Collateral Review report submitted under Access Bank CPG guidelines?",
+    "answer": "MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 1,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q36 (marked B/MCC in red), Collateral Review reports are submitted to the Management Credit Committee (MCC).",
+    "page": "CPM Test Q36 / CPG Section 6.1"
   },
   {
     "id": 834,
-    "question": "Recovery Status Report “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is the Recovery Status Report submitted under Access Bank CPG guidelines?",
+    "answer": "MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 1,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q37 (marked B/MCC in red), the Recovery Status Report is submitted to the Management Credit Committee (MCC).",
+    "page": "CPM Test Q37 / CPG Section 6.1"
   },
   {
     "id": 835,
-    "question": "Recoveries Made “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is the Recoveries Made report submitted under Access Bank CPG guidelines?",
+    "answer": "MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 1,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q38 (marked B/MCC in red), reports on Recoveries Made are submitted to the Management Credit Committee (MCC).",
+    "page": "CPM Test Q38 / CPG Section 6.1"
   },
   {
     "id": 836,
-    "question": "Account throughput reporting “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is Account Throughput Reporting submitted under Access Bank CPG guidelines?",
+    "answer": "Biz.Units / MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 2,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q39 (marked C/Biz.Units / MCC in red), Account throughput reporting is submitted to both Business Units and MCC.",
+    "page": "CPM Test Q39 / CPG Section 6.1"
   },
   {
     "id": 837,
-    "question": "Reserves and write offs “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is the Reserves and Write-Offs report submitted under Access Bank CPG guidelines?",
+    "answer": "CAC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 3,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q40 (marked D/CAC in red), the Reserves and write-offs report is submitted to the Criticized Assets Committee (CAC).",
+    "page": "CPM Test Q40 / CPG Section 6.1"
   },
   {
     "id": 838,
-    "question": "Review of security documentation “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is the Review of Security Documentation report submitted under Access Bank CPG guidelines?",
+    "answer": "MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 1,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q41 (marked B/MCC in red), the Review of security documentation report is submitted to the Management Credit Committee (MCC).",
+    "page": "CPM Test Q41 / CPG Section 6.1"
   },
   {
     "id": 839,
-    "question": "Excess over approval limits “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is the Excess Over Approval Limits report submitted under Access Bank CPG guidelines?",
+    "answer": "Biz.Units / MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank CPM Test Q42 (marked C/Biz.Units / MCC in red), reports on Excess over approval limits are submitted to Business Units / MCC.",
+    "page": "CPM Test Q42 / CPG Section 6.1"
   },
   {
     "id": 840,
-    "question": "Unauthorized O/D report “ “ “ “",
-    "answer": "True",
+    "question": "To which body or committee is the Unauthorized Overdraft (O/D) report submitted under Access Bank CPG guidelines?",
+    "answer": "Biz.Units / MCC",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
-    "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "correctIndex": 2,
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q43 (marked C/Biz.Units / MCC in red), the Unauthorized O/D report is submitted to Business Units / MCC.",
+    "page": "CPM Test Q43 / CPG Section 6.1"
   },
   {
     "id": 841,
-    "question": "Central liability report “ “ “ “",
-    "answer": "True",
+    "question": "To which body or unit is the Central Liability Report submitted under Access Bank CPG guidelines?",
+    "answer": "Biz.Units",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
     "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q44 (marked A/Biz.Units in red), the Central liability report is submitted directly to Business Units.",
+    "page": "CPM Test Q44 / CPG Section 6.1"
   },
   {
     "id": 842,
-    "question": "Maturing obligation report “ “ “ “",
-    "answer": "True",
+    "question": "To which body or unit is the Maturing Obligation Report submitted under Access Bank CPG guidelines?",
+    "answer": "Biz.Units",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
     "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q45 (marked A/Biz.Units in red), the Maturing obligation report is submitted directly to Business Units.",
+    "page": "CPM Test Q45 / CPG Section 6.1"
   },
   {
     "id": 843,
-    "question": "Expiring and expired facilities “ “ “ “",
-    "answer": "True",
+    "question": "To which body or unit is the Expiring and Expired Facilities report submitted under Access Bank CPG guidelines?",
+    "answer": "Biz.Units",
     "options": [
-      "True",
-      "False"
+      "Biz.Units",
+      "MCC",
+      "Biz.Units / MCC",
+      "CAC"
     ],
     "correctIndex": 0,
-    "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"True\".",
-    "page": "CPG Policy Guidelines"
+    "topic": "Credit Approvals & Governance",
+    "explanation": "According to Access Bank CPM Test Q46 (marked A/Biz.Units in red), the Expiring and expired facilities report is submitted directly to Business Units.",
+    "page": "CPM Test Q46 / CPG Section 6.1"
   },
   {
     "id": 844,

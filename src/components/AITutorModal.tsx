@@ -16,7 +16,7 @@ import {
   AlertTriangle,
   FileText
 } from "lucide-react";
-import { Question } from "../questions";
+import { Question, getQuestionSourceBadgeInfo } from "../questions";
 
 interface ChatMessage {
   id: string;
@@ -261,9 +261,18 @@ export const AITutorModal: React.FC<AITutorModalProps> = ({
                     Gemini Powered
                   </span>
                 </div>
-                <p className={`text-xs ${theme === "dark" ? "text-slate-400" : "text-slate-500"}`}>
-                  Topic: <span className="font-semibold">{question.topic}</span> • Ref: <span className="font-mono">{question.page}</span>
-                </p>
+                <div className="flex items-center gap-2 mt-0.5">
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md border ${
+                    getQuestionSourceBadgeInfo(question).source === "cpg_manual"
+                      ? "bg-blue-500/10 text-blue-400 border-blue-500/30"
+                      : "bg-emerald-500/10 text-emerald-400 border-emerald-500/30"
+                  }`}>
+                    {getQuestionSourceBadgeInfo(question).shortLabel} (Q{question.id})
+                  </span>
+                  <p className={`text-xs ${theme === "dark" ? "text-slate-400" : "text-slate-500"}`}>
+                    Topic: <span className="font-semibold">{question.topic}</span> • Ref: <span className="font-mono">{question.page}</span>
+                  </p>
+                </div>
               </div>
             </div>
 

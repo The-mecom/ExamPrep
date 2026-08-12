@@ -27,7 +27,7 @@ import {
   Play,
   Layers
 } from "lucide-react";
-import { CPG_QUESTIONS, Question } from "./questions";
+import { CPG_QUESTIONS, Question, QuestionSource } from "./questions";
 import { AITutorModal } from "./components/AITutorModal";
 import { ClumpsExplorerView } from "./components/ClumpsExplorerView";
 
@@ -51,9 +51,13 @@ export default function App() {
   // Navigation State
   const [screen, setScreen] = useState<"home" | "topic" | "quiz" | "review" | "review-complete" | "search" | "clumps">("home");
 
+  // Global Question Source Isolation State ("all" | "cpg_manual" | "uploaded_txt")
+  const [selectedSourceFilter, setSelectedSourceFilter] = useState<QuestionSource>("all");
+
   // Search Mode State
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [searchTopicFilter, setSearchTopicFilter] = useState<string>("all");
+  const [searchSourceFilter, setSearchSourceFilter] = useState<QuestionSource>("all");
   const [searchPage, setSearchPage] = useState<number>(1);
   const [searchExpandedIds, setSearchExpandedIds] = useState<Record<number, boolean>>({});
 
@@ -170,27 +174,42 @@ export default function App() {
     return shuffled.slice(0, Math.min(num, arr.length));
   };
 
-  // Extract total category counts
-  const getTopicMeta = () => {
+  // Active isolated question bank subset based on user preference
+  const sourceFilteredQuestions = useMemo(() => {
+    if (selectedSourceFilter === "cpg_manual") {
+      return CPG_QUESTIONS.filter((q) => q.id <= 802);
+    }
+    if (selectedSourceFilter === "uploaded_txt") {
+      return CPG_QUESTIONS.filter((q) => q.id >= 803);
+    }
+    return CPG_QUESTIONS;
+  }, [selectedSourceFilter]);
+
+  // Dynamic category topic counts for active question source
+  const topicCounts = useMemo(() => {
     const counts: Record<string, number> = {};
-    CPG_QUESTIONS.forEach((q) => {
+    sourceFilteredQuestions.forEach((q) => {
       counts[q.topic] = (counts[q.topic] || 0) + 1;
     });
     return counts;
-  };
+  }, [sourceFilteredQuestions]);
 
-  const topicCounts = getTopicMeta();
-  const allTopics = Object.keys(topicCounts).sort();
+  const allTopics = useMemo(() => Object.keys(topicCounts).sort(), [topicCounts]);
 
   // Reset search page when query or filter changes
   useEffect(() => {
     setSearchPage(1);
-  }, [searchQuery, searchTopicFilter]);
+  }, [searchQuery, searchTopicFilter, searchSourceFilter]);
 
-  // Filtered search questions logic with intelligent multi-term fallback
+  // Filtered search questions logic with intelligent multi-term fallback and source isolation
   const filteredSearchQuestions = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
     return CPG_QUESTIONS.filter((q) => {
+      // Source filter check
+      if (searchSourceFilter === "cpg_manual" && q.id > 802) return false;
+      if (searchSourceFilter === "uploaded_txt" && q.id < 803) return false;
+
+      // Topic filter check
       if (searchTopicFilter !== "all" && q.topic !== searchTopicFilter) {
         return false;
       }
@@ -215,7 +234,7 @@ export default function App() {
       // Check if all significant query tokens exist in the question content
       return tokens.every((token) => fullContent.includes(token));
     });
-  }, [searchQuery, searchTopicFilter]);
+  }, [searchQuery, searchTopicFilter, searchSourceFilter]);
 
   const SEARCH_PAGE_SIZE = 12;
   const totalSearchPages = Math.max(1, Math.ceil(filteredSearchQuestions.length / SEARCH_PAGE_SIZE));
@@ -311,8 +330,10 @@ export default function App() {
 
   // Start Exam Simulation
   const handleStartExam = () => {
-    // Select 100 questions representing all categories with at most 1 of each template question type
-    const selected = getDeduplicatedExamPool(CPG_QUESTIONS, 100);
+    // Select up to 100 questions from the active isolated question bank representing all categories
+    const poolToUse = sourceFilteredQuestions;
+    const countToPick = Math.min(100, poolToUse.length);
+    const selected = getDeduplicatedExamPool(poolToUse, countToPick);
     setQuestions(selected);
     setCurrentIndex(0);
     setAnswers({});
@@ -372,8 +393,8 @@ export default function App() {
       return;
     }
     
-    // Filter questions matching selected topics
-    const filtered = CPG_QUESTIONS.filter((q) => topicsToQuery.includes(q.topic));
+    // Filter questions matching selected topics from active isolated source bank
+    const filtered = sourceFilteredQuestions.filter((q) => topicsToQuery.includes(q.topic));
     // Shuffle the matching subset
     let shuffled = [...filtered].sort(() => 0.5 - Math.random());
     
@@ -734,6 +755,176 @@ export default function App() {
                 </div>
               </div>
 
+              {/* Question Bank Isolation & Source Selector */}
+              <div className={`p-6 sm:p-7 rounded-3xl border shadow-lg space-y-4 ${
+                theme === "dark"
+                  ? "bg-slate-950/80 border-slate-800/90 backdrop-blur-xl"
+                  : "bg-white border-slate-200"
+              }`}>
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b pb-4 border-slate-800/50">
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-cyan-400" />
+                      <h3 className={`text-lg sm:text-xl font-black tracking-tight ${theme === "dark" ? "text-white" : "text-slate-900"}`}>
+                        Isolated Question Banks
+                      </h3>
+                    </div>
+                    <p className={`text-xs mt-1 leading-relaxed ${theme === "dark" ? "text-slate-400" : "text-slate-600"}`}>
+                      Select whether to practice across all questions or isolate practice strictly to the uploaded text file vs. primary manual.
+                    </p>
+                  </div>
+
+                  {/* Quick Scope Selector */}
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <button
+                      onClick={() => setSelectedSourceFilter("all")}
+                      className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer flex items-center gap-2 ${
+                        selectedSourceFilter === "all"
+                          ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 ring-2 ring-cyan-400/50"
+                          : theme === "dark"
+                          ? "bg-slate-900 text-slate-400 border border-slate-800 hover:text-white"
+                          : "bg-slate-100 text-slate-600 border border-slate-200 hover:text-slate-900"
+                      }`}
+                    >
+                      <span>🌐 Combined Bank (1,469 Qs)</span>
+                    </button>
+
+                    <button
+                      onClick={() => setSelectedSourceFilter("cpg_manual")}
+                      className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer flex items-center gap-2 ${
+                        selectedSourceFilter === "cpg_manual"
+                          ? "bg-blue-600 text-white shadow-md shadow-blue-500/20 ring-2 ring-blue-400/50"
+                          : theme === "dark"
+                          ? "bg-slate-900 text-blue-400 border border-blue-500/30 hover:text-blue-300"
+                          : "bg-blue-50 text-blue-700 border border-blue-200 hover:text-blue-900"
+                      }`}
+                    >
+                      <span>📘 Primary CPG Manual (796 Qs)</span>
+                    </button>
+
+                    <button
+                      onClick={() => setSelectedSourceFilter("uploaded_txt")}
+                      className={`px-3.5 py-2 rounded-xl text-xs font-black transition-all cursor-pointer flex items-center gap-2 ${
+                        selectedSourceFilter === "uploaded_txt"
+                          ? "bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/20 ring-2 ring-emerald-400/50"
+                          : theme === "dark"
+                          ? "bg-slate-900 text-emerald-400 border border-emerald-500/30 hover:text-emerald-300"
+                          : "bg-emerald-50 text-emerald-700 border border-emerald-200 hover:text-emerald-900"
+                      }`}
+                    >
+                      <span>📄 Uploaded CPM Test File (673 Qs)</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Visual Cards comparing the two isolated banks */}
+                <div className="grid md:grid-cols-2 gap-4">
+                  {/* Bank 1: Primary CPG Manual */}
+                  <div
+                    onClick={() => {
+                      setSelectedSourceFilter("cpg_manual");
+                      handlePrepareStudy();
+                    }}
+                    className={`p-5 rounded-2xl border transition-all cursor-pointer relative overflow-hidden group ${
+                      selectedSourceFilter === "cpg_manual"
+                        ? "ring-2 ring-blue-500 bg-blue-500/10 border-blue-500/40"
+                        : theme === "dark"
+                        ? "bg-slate-900/60 border-slate-800 hover:border-blue-500/40 hover:bg-slate-900"
+                        : "bg-slate-50 border-slate-200 hover:border-blue-300 hover:bg-blue-50/50"
+                    }`}
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex items-center gap-2.5">
+                        <div className="p-2.5 bg-blue-500/15 text-blue-400 rounded-xl border border-blue-500/30">
+                          <BookOpen className="w-5 h-5" />
+                        </div>
+                        <div>
+                          <span className="text-[10px] font-extrabold uppercase tracking-widest text-blue-400">
+                            Source Bank #1 (IDs 1–802)
+                          </span>
+                          <h4 className={`text-base font-black ${theme === "dark" ? "text-white" : "text-slate-900"}`}>
+                            Primary CPG Policy Manual
+                          </h4>
+                        </div>
+                      </div>
+                      <span className="text-xs font-black px-2.5 py-1 rounded-lg bg-blue-500/20 text-blue-300 border border-blue-500/30 shrink-0">
+                        796 Qs
+                      </span>
+                    </div>
+                    <p className={`text-xs mt-3 leading-relaxed ${theme === "dark" ? "text-slate-400" : "text-slate-600"}`}>
+                      Original Credit Policy Guide questions covering Credit Products, Approval Governance, Collateral Valuation, Portfolio Monitoring, and Remedial Recoveries.
+                    </p>
+                    <div className="mt-4 flex items-center justify-between pt-2 border-t border-slate-800/40">
+                      <span className="text-xs font-bold text-blue-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                        Practice Manual Drills <ArrowRight className="w-3.5 h-3.5" />
+                      </span>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setSelectedSourceFilter("cpg_manual");
+                          handleStartExam();
+                        }}
+                        className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition shadow cursor-pointer"
+                      >
+                        Exam Mode (796 Qs)
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Bank 2: Uploaded CPM Assessment File */}
+                  <div
+                    onClick={() => {
+                      setSelectedSourceFilter("uploaded_txt");
+                      handlePrepareStudy();
+                    }}
+                    className={`p-5 rounded-2xl border transition-all cursor-pointer relative overflow-hidden group ${
+                      selectedSourceFilter === "uploaded_txt"
+                        ? "ring-2 ring-emerald-500 bg-emerald-500/10 border-emerald-500/40"
+                        : theme === "dark"
+                        ? "bg-slate-900/60 border-slate-800 hover:border-emerald-500/40 hover:bg-slate-900"
+                        : "bg-slate-50 border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/50"
+                    }`}
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex items-center gap-2.5">
+                        <div className="p-2.5 bg-emerald-500/15 text-emerald-400 rounded-xl border border-emerald-500/30">
+                          <FileText className="w-5 h-5" />
+                        </div>
+                        <div>
+                          <span className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-400">
+                            Source Bank #2 (IDs 803–1475)
+                          </span>
+                          <h4 className={`text-base font-black ${theme === "dark" ? "text-white" : "text-slate-900"}`}>
+                            Uploaded CPM Assessment File
+                          </h4>
+                        </div>
+                      </div>
+                      <span className="text-xs font-black px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shrink-0">
+                        673 Qs
+                      </span>
+                    </div>
+                    <p className={`text-xs mt-3 leading-relaxed ${theme === "dark" ? "text-slate-400" : "text-slate-600"}`}>
+                      Isolated questions from the uploaded 38-page text file & CPM Assessment paper, featuring CPM Test Q1–Q46 matrix reporting frequencies and submission bodies.
+                    </p>
+                    <div className="mt-4 flex items-center justify-between pt-2 border-t border-slate-800/40">
+                      <span className="text-xs font-bold text-emerald-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                        Practice Uploaded File <ArrowRight className="w-3.5 h-3.5" />
+                      </span>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setSelectedSourceFilter("uploaded_txt");
+                          handleStartExam();
+                        }}
+                        className="px-3 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-black transition shadow cursor-pointer"
+                      >
+                        Exam Mode (673 Qs)
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Mode Selectors */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
@@ -977,6 +1168,58 @@ export default function App() {
                       }`}
                     >
                       Clear Selection
+                    </button>
+                  </div>
+                </div>
+
+                {/* Source Bank Selector Bar */}
+                <div className={`p-4 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
+                  theme === "dark" ? "bg-slate-900/80 border-slate-800" : "bg-slate-50 border-slate-200"
+                }`}>
+                  <div className="flex items-center gap-2">
+                    <BookOpen className="w-4 h-4 text-cyan-400" />
+                    <span className="text-xs font-extrabold uppercase tracking-wider text-slate-400">
+                      Isolated Question Bank Source:
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <button
+                      onClick={() => setSelectedSourceFilter("all")}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-extrabold transition cursor-pointer ${
+                        selectedSourceFilter === "all"
+                          ? "bg-cyan-500 text-slate-950 shadow-sm font-black"
+                          : theme === "dark"
+                          ? "bg-slate-800 text-slate-400 hover:text-white"
+                          : "bg-white text-slate-600 hover:text-slate-900 border border-slate-200"
+                      }`}
+                    >
+                      All Banks (1,469 Qs)
+                    </button>
+
+                    <button
+                      onClick={() => setSelectedSourceFilter("cpg_manual")}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-extrabold transition cursor-pointer ${
+                        selectedSourceFilter === "cpg_manual"
+                          ? "bg-blue-600 text-white shadow-sm font-black"
+                          : theme === "dark"
+                          ? "bg-slate-800 text-blue-400 hover:text-blue-300"
+                          : "bg-blue-50 text-blue-700 hover:text-blue-900 border border-blue-200"
+                      }`}
+                    >
+                      📘 Primary CPG Manual (796 Qs)
+                    </button>
+
+                    <button
+                      onClick={() => setSelectedSourceFilter("uploaded_txt")}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-extrabold transition cursor-pointer ${
+                        selectedSourceFilter === "uploaded_txt"
+                          ? "bg-emerald-500 text-slate-950 shadow-sm font-black"
+                          : theme === "dark"
+                          ? "bg-slate-800 text-emerald-400 hover:text-emerald-300"
+                          : "bg-emerald-50 text-emerald-700 hover:text-emerald-900 border border-emerald-200"
+                      }`}
+                    >
+                      📄 Uploaded CPM Test File (673 Qs)
                     </button>
                   </div>
                 </div>
@@ -1341,7 +1584,7 @@ export default function App() {
                 }`} />
 
                 <div className="flex flex-wrap justify-between items-center gap-3 relative z-10">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 flex-wrap">
                     <div className={`inline-block border px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider shadow-inner ${
                       sessionMode === "review-mode"
                         ? "bg-purple-500/10 border-purple-500/20 text-purple-400"
@@ -1349,6 +1592,14 @@ export default function App() {
                     }`}>
                        Q. {currentIndex + 1} of {questions.length}
                     </div>
+
+                    <span className={`text-[10px] font-bold px-2.5 py-1 rounded-xl border ${
+                      questions[currentIndex].id <= 802
+                        ? "bg-blue-500/10 text-blue-400 border-blue-500/30"
+                        : "bg-emerald-500/10 text-emerald-400 border-emerald-500/30"
+                    }`}>
+                      {questions[currentIndex].id <= 802 ? "📘 Primary CPG Manual" : "📄 Uploaded CPM Test File"}
+                    </span>
 
                     {sessionMode !== "exam" && (
                       <button
@@ -1986,13 +2237,65 @@ export default function App() {
                           : "bg-slate-50 border-slate-300 text-slate-800 focus:border-cyan-600"
                       }`}
                     >
-                      <option value="all">All Topics & Disciplines ({CPG_QUESTIONS.length})</option>
+                      <option value="all">All Topics & Disciplines ({sourceFilteredQuestions.length})</option>
                       {allTopics.map((top) => (
                         <option key={top} value={top}>
                           {top} ({topicCounts[top] || 0})
                         </option>
                       ))}
                     </select>
+                  </div>
+                </div>
+
+                {/* Question Source Bank Selector */}
+                <div className={`p-3.5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
+                  theme === "dark" ? "bg-slate-900/60 border-slate-800" : "bg-slate-50 border-slate-200"
+                }`}>
+                  <div className="flex items-center gap-2">
+                    <BookOpen className="w-4 h-4 text-cyan-400" />
+                    <span className="text-xs font-extrabold uppercase tracking-wider text-slate-400">
+                      Isolated Question Bank Filter:
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <button
+                      onClick={() => setSearchSourceFilter("all")}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-extrabold transition cursor-pointer ${
+                        searchSourceFilter === "all"
+                          ? "bg-cyan-500 text-slate-950 shadow-sm font-black"
+                          : theme === "dark"
+                          ? "bg-slate-800 text-slate-400 hover:text-white"
+                          : "bg-white text-slate-600 hover:text-slate-900 border border-slate-200"
+                      }`}
+                    >
+                      All Banks (1,469 Qs)
+                    </button>
+
+                    <button
+                      onClick={() => setSearchSourceFilter("cpg_manual")}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-extrabold transition cursor-pointer ${
+                        searchSourceFilter === "cpg_manual"
+                          ? "bg-blue-600 text-white shadow-sm font-black"
+                          : theme === "dark"
+                          ? "bg-slate-800 text-blue-400 hover:text-blue-300"
+                          : "bg-blue-50 text-blue-700 hover:text-blue-900 border border-blue-200"
+                      }`}
+                    >
+                      📘 Primary CPG Manual (796 Qs)
+                    </button>
+
+                    <button
+                      onClick={() => setSearchSourceFilter("uploaded_txt")}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-extrabold transition cursor-pointer ${
+                        searchSourceFilter === "uploaded_txt"
+                          ? "bg-emerald-500 text-slate-950 shadow-sm font-black"
+                          : theme === "dark"
+                          ? "bg-slate-800 text-emerald-400 hover:text-emerald-300"
+                          : "bg-emerald-50 text-emerald-700 hover:text-emerald-900 border border-emerald-200"
+                      }`}
+                    >
+                      📄 Uploaded CPM Test File (673 Qs)
+                    </button>
                   </div>
                 </div>
 
@@ -2059,9 +2362,16 @@ export default function App() {
                       >
                         {/* Top Metadata Row */}
                         <div className="flex flex-wrap justify-between items-center gap-2">
-                          <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-2 flex-wrap">
                             <span className="px-2.5 py-1 bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-mono font-bold rounded-lg">
                               Question #{q.id}
+                            </span>
+                            <span className={`text-[10px] font-bold px-2 py-1 rounded border ${
+                              q.id <= 802
+                                ? "bg-blue-500/10 text-blue-400 border-blue-500/30"
+                                : "bg-emerald-500/10 text-emerald-400 border-emerald-500/30"
+                            }`}>
+                              {q.id <= 802 ? "📘 Primary CPG Manual" : "📄 Uploaded CPM Test File"}
                             </span>
                             <span className={`text-[10px] uppercase font-bold px-2 py-1 rounded tracking-wide border ${
                               theme === "dark"

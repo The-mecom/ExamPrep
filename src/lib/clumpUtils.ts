@@ -203,6 +203,24 @@ export const CLUMP_DEFINITIONS: ClumpDefinition[] = [
         text.includes("tm/rac")
       );
     }
+  },
+  {
+    id: "clump-cpm-reporting-matrix",
+    title: "CPM Reporting Frequencies & Governance Matrix",
+    type: "pattern",
+    badgeLabel: "CPM Test Matrix",
+    badgeColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/30",
+    iconName: "FileText",
+    description: "Structured assessment items from the uploaded CPM Test file covering reporting frequencies (Daily, Monthly, Quarterly) and governance submission bodies (Biz.Units, MCC, CAC).",
+    matchFn: (q) => {
+      const text = q.question.toLowerCase();
+      return (
+        (q.id >= 819 && q.id <= 843) ||
+        text.includes("required reporting frequency") ||
+        text.includes("to which body or committee") ||
+        text.includes("to which body or unit")
+      );
+    }
   }
 ];
 

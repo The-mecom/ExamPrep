@@ -19,7 +19,7 @@ import {
   RotateCcw,
   History
 } from "lucide-react";
-import { Question } from "../questions";
+import { Question, getQuestionSourceBadgeInfo, QuestionSource } from "../questions";
 import { ClumpWithQuestions, categorizeQuestionsIntoClumps } from "../lib/clumpUtils";
 
 interface ClumpsExplorerViewProps {
@@ -41,13 +41,21 @@ export function ClumpsExplorerView({
   onOpenTutor
 }: ClumpsExplorerViewProps) {
   const [filterType, setFilterType] = useState<"all" | "unrelated" | "template" | "pattern">("all");
+  const [sourceFilter, setSourceFilter] = useState<QuestionSource>("all");
   const [activeClumpId, setActiveClumpId] = useState<string | null>("clump-unrelated-distinct");
   const [clumpSearchQuery, setClumpSearchQuery] = useState<string>("");
   const [expandedQuestionIds, setExpandedQuestionIds] = useState<Record<number, boolean>>({});
   const [savedProgress, setSavedProgress] = useState<Record<string, number>>({});
 
+  // Filter questions based on selected source bank
+  const filteredQuestionsBySource = useMemo(() => {
+    if (sourceFilter === "cpg_manual") return allQuestions.filter((q) => q.id <= 802);
+    if (sourceFilter === "uploaded_txt") return allQuestions.filter((q) => q.id >= 803);
+    return allQuestions;
+  }, [allQuestions, sourceFilter]);
+
   // Categorize questions into stable sequential clumps
-  const clumps = useMemo(() => categorizeQuestionsIntoClumps(allQuestions), [allQuestions]);
+  const clumps = useMemo(() => categorizeQuestionsIntoClumps(filteredQuestionsBySource), [filteredQuestionsBySource]);
 
   // Load saved progress from localStorage
   useEffect(() => {
@@ -240,6 +248,59 @@ export function ClumpsExplorerView({
               <div className="text-lg font-black text-blue-400">{patternCount.toLocaleString()} Qs</div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Question Bank Source Selector */}
+      <div className={`p-4 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
+        theme === "dark" ? "bg-slate-900/90 border-slate-800" : "bg-white border-slate-200 shadow-xs"
+      }`}>
+        <div className="flex items-center gap-2">
+          <BookOpen className="w-4 h-4 text-cyan-400" />
+          <span className="text-xs font-black uppercase tracking-wider text-slate-400">
+            Source Question Bank Filter:
+          </span>
+        </div>
+
+        <div className="flex items-center gap-2 flex-wrap">
+          <button
+            onClick={() => setSourceFilter("all")}
+            className={`px-3 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer flex items-center gap-1.5 ${
+              sourceFilter === "all"
+                ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20"
+                : theme === "dark"
+                ? "bg-slate-800/80 text-slate-400 hover:text-white border border-slate-700"
+                : "bg-slate-100 text-slate-600 hover:text-slate-900 border border-slate-200"
+            }`}
+          >
+            <span>🌐 All Question Banks (1,469 Qs)</span>
+          </button>
+
+          <button
+            onClick={() => setSourceFilter("cpg_manual")}
+            className={`px-3 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer flex items-center gap-1.5 ${
+              sourceFilter === "cpg_manual"
+                ? "bg-blue-500 text-white shadow-md shadow-blue-500/20"
+                : theme === "dark"
+                ? "bg-slate-800/80 text-blue-400 hover:text-blue-300 border border-blue-500/30"
+                : "bg-blue-50 text-blue-700 hover:text-blue-900 border border-blue-200"
+            }`}
+          >
+            <span>📘 Primary CPG Manual (796 Qs)</span>
+          </button>
+
+          <button
+            onClick={() => setSourceFilter("uploaded_txt")}
+            className={`px-3 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer flex items-center gap-1.5 ${
+              sourceFilter === "uploaded_txt"
+                ? "bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/20"
+                : theme === "dark"
+                ? "bg-slate-800/80 text-emerald-400 hover:text-emerald-300 border border-emerald-500/30"
+                : "bg-emerald-50 text-emerald-700 hover:text-emerald-900 border border-emerald-200"
+            }`}
+          >
+            <span>📄 Uploaded CPM Test File (673 Qs)</span>
+          </button>
         </div>
       </div>
 
@@ -535,6 +596,13 @@ export function ClumpsExplorerView({
                           </span>
                           <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
                             Bank #{q.id}
+                          </span>
+                          <span className={`text-[10px] font-bold px-2 py-0.5 rounded border ${
+                            q.id <= 802
+                              ? "bg-blue-500/10 text-blue-400 border-blue-500/30"
+                              : "bg-emerald-500/10 text-emerald-400 border-emerald-500/30"
+                          }`}>
+                            {q.id <= 802 ? "📘 Primary CPG Manual" : "📄 Uploaded CPM Test File"}
                           </span>
                           <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${theme === "dark" ? "bg-slate-800 text-slate-300" : "bg-slate-200 text-slate-700"}`}>
                             {q.topic}

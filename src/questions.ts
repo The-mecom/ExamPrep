@@ -13,6 +13,8 @@ import { BANKM_QUESTIONS } from "./questions/bankM";
 import { BANKN_QUESTIONS } from "./questions/bankN";
 import { BANKO_QUESTIONS } from "./questions/bankO";
 
+export type QuestionSource = "all" | "cpg_manual" | "uploaded_txt";
+
 export interface Question {
   id: number;
   question: string;
@@ -22,6 +24,40 @@ export interface Question {
   topic: string;
   explanation: string;
   page: string;
+  source?: "cpg_manual" | "uploaded_txt";
+}
+
+export function getQuestionSource(q: Question): "cpg_manual" | "uploaded_txt" {
+  if (q.source) return q.source;
+  return q.id <= 802 ? "cpg_manual" : "uploaded_txt";
+}
+
+export function getQuestionSourceLabel(q: Question): string {
+  const source = getQuestionSource(q);
+  return source === "cpg_manual" ? "Primary CPG Manual" : "Uploaded CPM Assessment File";
+}
+
+export function getQuestionSourceBadgeInfo(q: Question) {
+  const source = getQuestionSource(q);
+  if (source === "cpg_manual") {
+    return {
+      source,
+      label: "Primary CPG Manual (IDs 1–802)",
+      shortLabel: "Primary CPG Manual",
+      badgeClass: "bg-blue-500/15 text-blue-300 border-blue-500/30 dark:bg-blue-500/20 dark:text-blue-300 dark:border-blue-500/40",
+      lightBadgeClass: "bg-blue-100 text-blue-800 border-blue-300",
+      accentColor: "blue"
+    };
+  } else {
+    return {
+      source,
+      label: "Uploaded CPM Test File (IDs 803–1475)",
+      shortLabel: "Uploaded CPM Test File",
+      badgeClass: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30 dark:bg-emerald-500/20 dark:text-emerald-300 dark:border-emerald-500/40",
+      lightBadgeClass: "bg-emerald-100 text-emerald-800 border-emerald-300",
+      accentColor: "emerald"
+    };
+  }
 }
 
 export const CPG_QUESTIONS: Question[] = [
