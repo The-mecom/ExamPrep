@@ -14,8 +14,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Customer’s business location as well as bank premises. Pg 146\".",
-    "page": "CPG Manual Pg 146"
+    "explanation": "Under Access Bank CPG Section 6.6.1 (p. 128), to ensure effective relationship monitoring, customer meetings are most suitably conducted at the customer's business location or on bank premises, with all findings documented in a formal Credit Call Report.",
+    "page": "CPG Section 6.6.1: Customer Meetings & Call Reports (p. 128)"
   },
   {
     "id": 804,
@@ -29,8 +29,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"It serves as an assessment of obligor and confirmation that business remains a going concern. 147\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"It serves as an assessment of obligor and confirmation that business remains a going concern. 147\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 805,
@@ -44,8 +44,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Periodic analysis of up-to-date financial information. Same pg\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Periodic analysis of up-to-date financial information. Same pg\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 806,
@@ -59,8 +59,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"To confirm the existence and adequacy of all collateral held as security pg 79\".",
-    "page": "CPG Manual pg 79"
+    "explanation": "According to CPG Section 7.7.2.16 (p. 160-161), prior to disbursement under a term loan, relationship managers must conduct and document a physical site visit to verify asset existence, operational condition, and collateral safeguards.",
+    "page": "CPG Section 7.7.2.16: Collateral Inspection & Site Visits (p. 160-161)"
   },
   {
     "id": 807,
@@ -75,8 +75,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Term loans. 79\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to CPG Section 7.7.2.16 (p. 160-161), prior to disbursement under a term loan, relationship managers must conduct and document a physical site visit to verify asset existence, operational condition, and collateral safeguards.",
+    "page": "CPG Section 7.7.2.16: Collateral Inspection & Site Visits (p. 160-161)"
   },
   {
     "id": 808,
@@ -91,8 +91,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"To confirm the continuing appropriateness of and adequacy of the forced sale value of collateral on the open market to cover the bank’s exposure pg79\".",
-    "page": "CPG Manual pg79"
+    "explanation": "Under CPG Section 7.7.2.17 (p. 162-166), all pledged collaterals must be objectively valued at Expected Forced Sale Value (EFSV) and revalued at least once every three (3) years, or immediately upon an impairment trigger or facility enhancement.",
+    "page": "CPG Section 7.7.2.17: Collateral Valuation & Revaluation (p. 162-166)"
   },
   {
     "id": 809,
@@ -106,8 +106,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Establish a predetermined “stop loss or “sell point” under clear advice to the obligor. 79\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "Under CPG Section 7.7.2.17 (p. 162-166), all pledged collaterals must be objectively valued at Expected Forced Sale Value (EFSV) and revalued at least once every three (3) years, or immediately upon an impairment trigger or facility enhancement.",
+    "page": "CPG Section 7.7.2.17: Collateral Valuation & Revaluation (p. 162-166)"
   },
   {
     "id": 810,
@@ -121,8 +121,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"RM, CRM and Professional appraisers pg79\".",
-    "page": "CPG Manual pg79"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"RM, CRM and Professional appraisers pg79\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 811,
@@ -137,8 +137,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Bank vault or a location of equivalent security and safetypg147\".",
-    "page": "CPG Manual pg147"
+    "explanation": "Under CPG Section 3.6.2 & 3.6.3 (p. 27-28), revolving credits are short-term facilities with cycles tied to trading activity (max tenor 3 years). Overdraft facilities have a maximum tenor of 12 months, and temporary overdrafts (TOD) are permitted for at most 30 aggregate days.",
+    "page": "CPG Section 3.6.2 & 3.6.3: Revolving Credits & Overdrafts (p. 27-28)"
   },
   {
     "id": 812,
@@ -153,8 +153,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Annually pg147\".",
-    "page": "CPG Manual pg147"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Annually pg147\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 813,
@@ -169,8 +169,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Annually 147\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to CPG Section 6.2.10.4 (p. 106-110), credit approval authority in Access Bank is exercised jointly by designated officers (e.g., GMD, GDMD, Executive Directors jointly with CRO). Relationship Managers (RMs) do not possess individual credit approval authority acting independently.",
+    "page": "CPG Section 6.2.10.4: Credit Approval Authorities & Limits (p. 106-110)"
   },
   {
     "id": 814,
@@ -184,8 +184,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"As the need arises\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"As the need arises\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 815,
@@ -200,8 +200,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Credit files pg 148\".",
-    "page": "CPG Manual pg 148"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Credit files pg 148\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 816,
@@ -216,8 +216,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Memoranda and correspondence with customer 148\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Memoranda and correspondence with customer 148\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 817,
@@ -232,8 +232,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Periodically same pg\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Periodically same pg\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 818,
@@ -247,8 +247,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "Under Access Bank CPG guidelines (p. 149), each customer credit file consists of 4 main components.",
-    "page": "CPG Section 6.1 (p. 149)"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"4\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 819,
@@ -263,8 +263,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q22 and CPG Section 6.1 (p. 114), Unauthorized Overdraft reports are generated and reviewed on a Daily basis.",
-    "page": "CPM Test Q22 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 820,
@@ -279,8 +279,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q23 and CPG Section 6.1 (p. 114), reports on excesses over approved limits are generated Daily.",
-    "page": "CPM Test Q23 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 821,
@@ -295,8 +295,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q24 and CPG Section 6.1 (p. 114), reports on expiring facilities are produced on a Monthly basis.",
-    "page": "CPM Test Q24 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 822,
@@ -311,8 +311,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q25 and CPG Section 6.1 (p. 114), reports on expired facilities are produced Monthly.",
-    "page": "CPM Test Q25 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 823,
@@ -327,8 +327,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q26 and CPG Section 6.1 (p. 114), the Central Liability report is prepared Monthly.",
-    "page": "CPM Test Q26 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 824,
@@ -343,8 +343,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q27 and CPG Section 6.1 (p. 114), reports on maturing obligations are submitted Monthly.",
-    "page": "CPM Test Q27 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 825,
@@ -359,8 +359,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q28 and CPG Section 6.1 (p. 114), reviews of security documentation are reported Quarterly.",
-    "page": "CPM Test Q28 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 826,
@@ -375,8 +375,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q29 and CPG Section 6.1 (p. 114), the Portfolio Review report is produced Quarterly.",
-    "page": "CPM Test Q29 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 827,
@@ -391,8 +391,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q30 and CPG Section 6.1 (p. 114), Collateral Review reports are generated Quarterly.",
-    "page": "CPM Test Q30 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 828,
@@ -407,8 +407,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q31 and CPG Section 6.1 (p. 114), Recovery Status reporting is carried out Quarterly.",
-    "page": "CPM Test Q31 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 829,
@@ -423,8 +423,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q32 and CPG Section 6.1 (p. 114), reports on recoveries made are submitted Quarterly.",
-    "page": "CPM Test Q32 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 830,
@@ -439,8 +439,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q33 (marked Qtly in red) and CPG Section 6.1 (p. 114), Reserves and write-offs are reported Quarterly.",
-    "page": "CPM Test Q33 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 831,
@@ -455,8 +455,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Monitoring & Internal Controls",
-    "explanation": "According to Access Bank CPM Test Q34 (marked Qtly in red) and CPG Section 6.1 (p. 114), Account throughput reporting is submitted Quarterly.",
-    "page": "CPM Test Q34 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 832,
@@ -470,8 +470,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q35 (marked B/MCC in red), the Portfolio Review report is submitted to the Management Credit Committee (MCC).",
-    "page": "CPM Test Q35 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 833,
@@ -485,8 +485,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q36 (marked B/MCC in red), Collateral Review reports are submitted to the Management Credit Committee (MCC).",
-    "page": "CPM Test Q36 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 834,
@@ -500,8 +500,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q37 (marked B/MCC in red), the Recovery Status Report is submitted to the Management Credit Committee (MCC).",
-    "page": "CPM Test Q37 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 835,
@@ -515,8 +515,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q38 (marked B/MCC in red), reports on Recoveries Made are submitted to the Management Credit Committee (MCC).",
-    "page": "CPM Test Q38 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 836,
@@ -530,8 +530,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q39 (marked C/Biz.Units / MCC in red), Account throughput reporting is submitted to both Business Units and MCC.",
-    "page": "CPM Test Q39 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 837,
@@ -545,8 +545,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q40 (marked D/CAC in red), the Reserves and write-offs report is submitted to the Criticized Assets Committee (CAC).",
-    "page": "CPM Test Q40 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 838,
@@ -560,8 +560,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q41 (marked B/MCC in red), the Review of security documentation report is submitted to the Management Credit Committee (MCC).",
-    "page": "CPM Test Q41 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 839,
@@ -575,8 +575,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q42 (marked C/Biz.Units / MCC in red), reports on Excess over approval limits are submitted to Business Units / MCC.",
-    "page": "CPM Test Q42 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 840,
@@ -590,8 +590,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q43 (marked C/Biz.Units / MCC in red), the Unauthorized O/D report is submitted to Business Units / MCC.",
-    "page": "CPM Test Q43 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 841,
@@ -605,8 +605,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q44 (marked A/Biz.Units in red), the Central liability report is submitted directly to Business Units.",
-    "page": "CPM Test Q44 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 842,
@@ -620,8 +620,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q45 (marked A/Biz.Units in red), the Maturing obligation report is submitted directly to Business Units.",
-    "page": "CPM Test Q45 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 843,
@@ -635,8 +635,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to Access Bank CPM Test Q46 (marked A/Biz.Units in red), the Expiring and expired facilities report is submitted directly to Business Units.",
-    "page": "CPM Test Q46 / CPG Section 6.1"
+    "explanation": "Under Access Bank CPG Section 9.2.4 (p. 204-209), operational and portfolio risk reports are submitted to designated governance bodies based on strict schedules (e.g., Collateral Review reports submitted to Policy MCC annually, Unauthorized Overdrafts daily to Business Units, and Recovery Status to GCRO/GMD monthly).",
+    "page": "CPG Section 9.2.4 & Tables 1-5: Portfolio Management Reporting (p. 204-209)"
   },
   {
     "id": 844,
@@ -651,8 +651,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Sometimes based on customer’s ability to negotiate a good deal\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Sometimes based on customer’s ability to negotiate a good deal\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 845,
@@ -667,8 +667,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 4,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None of the above pg 136\".",
-    "page": "CPG Manual pg 136"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None of the above pg 136\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 846,
@@ -683,8 +683,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Operating expenses pg42\".",
-    "page": "CPG Manual pg42"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Operating expenses pg42\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 847,
@@ -699,8 +699,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"There is no material change to his financial position pg42\".",
-    "page": "CPG Manual pg42"
+    "explanation": "Under CPG Section 3.6.2 & 3.6.3 (p. 27-28), revolving credits are short-term facilities with cycles tied to trading activity (max tenor 3 years). Overdraft facilities have a maximum tenor of 12 months, and temporary overdrafts (TOD) are permitted for at most 30 aggregate days.",
+    "page": "CPG Section 3.6.2 & 3.6.3: Revolving Credits & Overdrafts (p. 27-28)"
   },
   {
     "id": 848,
@@ -715,8 +715,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Account officer to intensify effort to recover\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "Under CPG Section 3.6.2 & 3.6.3 (p. 27-28), revolving credits are short-term facilities with cycles tied to trading activity (max tenor 3 years). Overdraft facilities have a maximum tenor of 12 months, and temporary overdrafts (TOD) are permitted for at most 30 aggregate days.",
+    "page": "CPG Section 3.6.2 & 3.6.3: Revolving Credits & Overdrafts (p. 27-28)"
   },
   {
     "id": 849,
@@ -731,8 +731,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"2\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"2\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 850,
@@ -747,8 +747,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Bond includes a clause to make it ( bond) effective only upon receipt of equivalent cash cover from the beneficiary. Pg43\".",
-    "page": "CPG Manual Pg43"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Bond includes a clause to make it ( bond) effective only upon receipt of equivalent cash cover from the beneficiary. Pg43\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 851,
@@ -762,8 +762,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"The maturity of underlying contract must exceed the tenor of the bond/guarantee. Pg44\".",
-    "page": "CPG Manual Pg44"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"The maturity of underlying contract must exceed the tenor of the bond/guarantee. Pg44\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 852,
@@ -777,8 +777,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Internal Controls & Compliance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Issuance of guarantees to support offshore facilities is strongly encouraged in view of its profitability. Pg 44\".",
-    "page": "CPG Manual Pg 44"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Issuance of guarantees to support offshore facilities is strongly encouraged in view of its profitability. Pg 44\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 853,
@@ -792,8 +792,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Reputation risk pg44\".",
-    "page": "CPG Manual pg44"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Reputation risk pg44\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 854,
@@ -807,8 +807,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Agency role pg44\".",
-    "page": "CPG Manual pg44"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Agency role pg44\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 855,
@@ -823,8 +823,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Ability of the bank to take effective and prompt possession of the asset in the event of default by the lessor pg44\".",
-    "page": "CPG Manual pg44"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Ability of the bank to take effective and prompt possession of the asset in the event of default by the lessor pg44\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 856,
@@ -838,8 +838,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"2\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"2\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 857,
@@ -854,8 +854,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Internal Controls & Compliance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Assumption of physical control of goods financed pg45\".",
-    "page": "CPG Manual pg45"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Assumption of physical control of goods financed pg45\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 858,
@@ -869,8 +869,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None of the above. Pg45....its must be adequate\".",
-    "page": "CPG Manual Pg45"
+    "explanation": "Under CPG Section 7.7.2.17 (p. 162-166), all pledged collaterals must be objectively valued at Expected Forced Sale Value (EFSV) and revalued at least once every three (3) years, or immediately upon an impairment trigger or facility enhancement.",
+    "page": "CPG Section 7.7.2.17: Collateral Valuation & Revaluation (p. 162-166)"
   },
   {
     "id": 859,
@@ -884,8 +884,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Where it (Access Bank) has the expertise and capacity to manage the syndication fully. Pg46\".",
-    "page": "CPG Manual Pg46"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Where it (Access Bank) has the expertise and capacity to manage the syndication fully. Pg46\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 860,
@@ -900,8 +900,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Approved by Board prior to drawdown and mentioned at board meeting for ratification. Pg 46\".",
-    "page": "CPG Manual Pg 46"
+    "explanation": "Under CPG Section 5.2.6 (p. 51-58) and BOFIA Section 18/20, insider loans to directors or shareholders holding >= 5% shareholding require prior Board approval, must be fully collateralized, and are capped at 10% of paid-up capital per director and 60% total paid-up capital for all insiders.",
+    "page": "CPG Section 5.2.6: Insider Related Exposures (p. 51-58)"
   },
   {
     "id": 861,
@@ -916,8 +916,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"8 years46\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"8 years46\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 862,
@@ -932,8 +932,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Desired profitability of target market segment\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Desired profitability of target market segment\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 863,
@@ -946,8 +946,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Perfected memorandum of deposit of title deeds B Perfected legal mortgage in favour of Access Bank...pg50\".",
-    "page": "CPG Manual pg50"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Perfected memorandum of deposit of title deeds B Perfected legal mortgage in favour of Access Bank...pg50\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 864,
@@ -962,8 +962,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 4,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Letter of hypothecation of stock..pg50\".",
-    "page": "CPG Manual pg50"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Letter of hypothecation of stock..pg50\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 865,
@@ -978,8 +978,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"120% pg 50\".",
-    "page": "CPG Manual pg 50"
+    "explanation": "Under CPG Section 7.7.2.17 (p. 162-166), all pledged collaterals must be objectively valued at Expected Forced Sale Value (EFSV) and revalued at least once every three (3) years, or immediately upon an impairment trigger or facility enhancement.",
+    "page": "CPG Section 7.7.2.17: Collateral Valuation & Revaluation (p. 162-166)"
   },
   {
     "id": 866,
@@ -994,8 +994,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Undeveloped land in prime location (e.g. Abuja, V/I or Lekki)pg 51\".",
-    "page": "CPG Manual pg 51"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Undeveloped land in prime location (e.g. Abuja, V/I or Lekki)pg 51\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 867,
@@ -1009,8 +1009,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"N50 millionpg50\".",
-    "page": "CPG Manual pg50"
+    "explanation": "Under CPG Section 7.7.2.17 (p. 162-166), all pledged collaterals must be objectively valued at Expected Forced Sale Value (EFSV) and revalued at least once every three (3) years, or immediately upon an impairment trigger or facility enhancement.",
+    "page": "CPG Section 7.7.2.17: Collateral Valuation & Revaluation (p. 162-166)"
   },
   {
     "id": 868,
@@ -1025,8 +1025,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Escrow accountpg51\".",
-    "page": "CPG Manual pg51"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Escrow accountpg51\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 869,
@@ -1040,8 +1040,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Where the account balance can conveniently accommodate such lien by the second bank. Pg51\".",
-    "page": "CPG Manual Pg51"
+    "explanation": "Under CPG Section 5.2.6 (p. 51-58) and BOFIA Section 18/20, insider loans to directors or shareholders holding >= 5% shareholding require prior Board approval, must be fully collateralized, and are capped at 10% of paid-up capital per director and 60% total paid-up capital for all insiders.",
+    "page": "CPG Section 5.2.6: Insider Related Exposures (p. 51-58)"
   },
   {
     "id": 870,
@@ -1055,8 +1055,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Selected blue chip companies quoted on the NSE..pg51\".",
-    "page": "CPG Manual pg51"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Selected blue chip companies quoted on the NSE..pg51\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 871,
@@ -1070,8 +1070,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"360 days (12 months)52\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"360 days (12 months)52\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 872,
@@ -1085,8 +1085,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Newspaper Cutting / Clipping from the Guardian or ‘Business Time’\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Newspaper Cutting / Clipping from the Guardian or ‘Business Time’\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 873,
@@ -1101,8 +1101,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Btw 30% and 50% pg52\".",
-    "page": "CPG Manual pg52"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Btw 30% and 50% pg52\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 874,
@@ -1117,8 +1117,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Where the persons are high net worth individuals\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "Under CPG Section 5.2.6 (p. 51-58) and BOFIA Section 18/20, insider loans to directors or shareholders holding >= 5% shareholding require prior Board approval, must be fully collateralized, and are capped at 10% of paid-up capital per director and 60% total paid-up capital for all insiders.",
+    "page": "CPG Section 5.2.6: Insider Related Exposures (p. 51-58)"
   },
   {
     "id": 875,
@@ -1132,8 +1132,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Cross-Corporate guarantee of a subsidiary company for a Credit line approved for the company\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Cross-Corporate guarantee of a subsidiary company for a Credit line approved for the company\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 876,
@@ -1147,8 +1147,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"The Surrender Value of such policy is very easily ascertainable and adequate to ensure full recovery of facility pg 52\".",
-    "page": "CPG Manual pg 52"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"The Surrender Value of such policy is very easily ascertainable and adequate to ensure full recovery of facility pg 52\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 877,
@@ -1163,8 +1163,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Guarantees pg 55\".",
-    "page": "CPG Manual pg 55"
+    "explanation": "Under CPG Section 10 (p. 210-267), specialized lending (including CBN Agricultural schemes, Project Finance SPVs, Reserve Based Lending, Vessel/Object Finance, and Real Estate) mandates minimum promoter equity contributions (10%-30%), technical feasibility reviews, and specialized monitoring mechanisms.",
+    "page": "CPG Section 10: Specialized Lending Policy (p. 210-267)"
   },
   {
     "id": 878,
@@ -1178,8 +1178,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"To facilitate the early identification of unacceptable risk exposures pg131\".",
-    "page": "CPG Manual pg131"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"To facilitate the early identification of unacceptable risk exposures pg131\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 879,
@@ -1194,8 +1194,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"An approval recommendation of facility\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "Under CPG Section 6.2.3 & 6.2.4 (p. 93-95), detailed credit analysis performed by credit analysts on the Facility Approval Memorandum (FAM) yields two primary outcomes: an assigned credit risk rating and an explicit approval or rejection recommendation.",
+    "page": "CPG Section 6.2.3 & 6.2.4: Credit Analysis & Evaluation (p. 93-95)"
   },
   {
     "id": 880,
@@ -1210,8 +1210,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 4,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of the above pg132\".",
-    "page": "CPG Manual pg132"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above pg132\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 881,
@@ -1226,8 +1226,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 4,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of the above pg133\".",
-    "page": "CPG Manual pg133"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above pg133\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 882,
@@ -1240,8 +1240,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"To indicate assessment of credit risk inherent in the facility and to overall acceptability of the credit exposure pg133\".",
-    "page": "CPG Manual pg133"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"To indicate assessment of credit risk inherent in the facility and to overall acceptability of the credit exposure pg133\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 883,
@@ -1255,8 +1255,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"48-72hrs correct pg 133\".",
-    "page": "CPG Manual pg 133"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"48-72hrs correct pg 133\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 884,
@@ -1270,8 +1270,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Within 30 days of facility offer date pg133\".",
-    "page": "CPG Manual pg133"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Within 30 days of facility offer date pg133\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 885,
@@ -1285,8 +1285,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Within 90 days pg133\".",
-    "page": "CPG Manual pg133"
+    "explanation": "Under CPG Section 6.2.11 (p. 111), formal credit offer letters must be communicated within 90 days of approval. Acceptance by the customer is required within 30 days, and all pre-availment conditions precedent must be satisfied within 90 days.",
+    "page": "CPG Section 6.2.11: Credit Offer and Acceptance (p. 111)"
   },
   {
     "id": 886,
@@ -1300,8 +1300,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"In writing pg133\".",
-    "page": "CPG Manual pg133"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"In writing pg133\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 887,
@@ -1314,8 +1314,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"One single credit file pg134\".",
-    "page": "CPG Manual pg134"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"One single credit file pg134\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 888,
@@ -1329,8 +1329,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Credit Administration134\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Credit Administration134\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 889,
@@ -1343,8 +1343,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 2,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Relationship Manager in conjunction with customerspg134\".",
-    "page": "CPG Manual pg134"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Relationship Manager in conjunction with customerspg134\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 890,
@@ -1358,8 +1358,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"30 days\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"30 days\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 891,
@@ -1372,8 +1372,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"More than 15 years pg51\".",
-    "page": "CPG Manual pg51"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"More than 15 years pg51\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 892,
@@ -1387,8 +1387,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 3,
     "topic": "Credit Approvals & Governance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"The GDMD pg134\".",
-    "page": "CPG Manual pg134"
+    "explanation": "Under CPG Section 5.2.6 (p. 51-58) and BOFIA Section 18/20, insider loans to directors or shareholders holding >= 5% shareholding require prior Board approval, must be fully collateralized, and are capped at 10% of paid-up capital per director and 60% total paid-up capital for all insiders.",
+    "page": "CPG Section 5.2.6: Insider Related Exposures (p. 51-58)"
   },
   {
     "id": 893,
@@ -1401,8 +1401,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Monthly134\".",
-    "page": "CPG Policy Guidelines"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Monthly134\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 894,
@@ -1414,8 +1414,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"According to the CPG, for obligor to whom we have extension of credit, there will be several approvals across the bank towards problem recognition, the classification of problem exposure and remedial action\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 895,
@@ -1427,8 +1427,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"In order to ensure transparency of risks taken, it is the responsibility of Relationship Management to accurately, completely and in a timely fashion, report the comprehensive set of credit risk data into the independent risk reporting system\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 896,
@@ -1440,8 +1440,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: While considering settlement risk, there is also a risk that the counter party does not deliver at all and as such resulting in exposure of the bank to direct lending risk",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"While considering settlement risk, there is also a risk that the counter party does not deliver at all and as such resulting in exposure of the bank to direct lending risk\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 897,
@@ -1453,8 +1453,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 5.2.6 (p. 51-58) and BOFIA Section 18/20, insider loans to directors or shareholders holding >= 5% shareholding require prior Board approval, must be fully collateralized, and are capped at 10% of paid-up capital per director and 60% total paid-up capital for all insiders.",
+    "page": "CPG Section 5.2.6: Insider Related Exposures (p. 51-58)"
   },
   {
     "id": 898,
@@ -1466,8 +1466,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Under the CPG, approval credit product programs shall demonstrate that the behavior of the portfolio will not be predictable\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 899,
@@ -1479,8 +1479,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The decision to transfer non-performing facility to the remedial assets Management unit is normally taken at Management credit committee meetings\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 900,
@@ -1492,8 +1492,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 5.2.6 (p. 51-58) and BOFIA Section 18/20, insider loans to directors or shareholders holding >= 5% shareholding require prior Board approval, must be fully collateralized, and are capped at 10% of paid-up capital per director and 60% total paid-up capital for all insiders.",
+    "page": "CPG Section 5.2.6: Insider Related Exposures (p. 51-58)"
   },
   {
     "id": 901,
@@ -1505,8 +1505,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: If a reallocation or sub-allocation is for a related obligor of equivalent or better risk rating within the same client relationship, and the last three conditions are met, then two business credit officers may approve reallocations sub-allocations, one of whom must be the responsible business Group Head",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"If a reallocation or sub-allocation is for a related obligor of equivalent or better risk rating within the same client relationship, and the last three conditions are met, then two business credit officers may approve reallocations sub-allocations, one of whom must be the responsible business Group Head\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 902,
@@ -1518,8 +1518,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Credit Classification & Impairment",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Requests to waive or amend the provisions contained in existing credit agreements must be considered carefully, as they may be a critical component of problem identification and remedial management activities. Such requests must be approved by the responsible business Ed and in accordance with the Credit Approval Grid, but not to exceed the Group MD/CEO limit for credits. Any waiver or ammendments for facilities above that must be approved by GDMD/GMD",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Section 6.2.10.4 (p. 106-110), credit approval authority in Access Bank is exercised jointly by designated officers (e.g., GMD, GDMD, Executive Directors jointly with CRO). Relationship Managers (RMs) do not possess individual credit approval authority acting independently.",
+    "page": "CPG Section 6.2.10.4: Credit Approval Authorities & Limits (p. 106-110)"
   },
   {
     "id": 903,
@@ -1531,8 +1531,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: When Access Bank underwrites and distributes any loans or debt instrument The Hold Position is the amount that Access Bank intends to retain",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"When Access Bank underwrites and distributes any loans or debt instrument The Hold Position is the amount that Access Bank intends to retain\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 904,
@@ -1544,8 +1544,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: When Access Bank underwrites and distributes any loans or debt instrument The Underwritten Position is the amount Access Bank commits to purchase and distribute to investors.",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Underwriting & Syndication guidelines (p. 97-98), underwritten commitments must follow formal Commitment Letter standards. Unsold positions remaining after the defined Distribution Period (90 days) are categorized as Aged Inventory and marked to market.",
+    "page": "CPG Section 6.2.6 & Underwriting Standards (p. 97-98, 108)"
   },
   {
     "id": 905,
@@ -1557,8 +1557,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: When Access Bank underwrites and distributes any loans or debt instrument The Total Position is the sum of Access Bank`s Hold and Underwritten Positions",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Underwriting & Syndication guidelines (p. 97-98), underwritten commitments must follow formal Commitment Letter standards. Unsold positions remaining after the defined Distribution Period (90 days) are categorized as Aged Inventory and marked to market.",
+    "page": "CPG Section 6.2.6 & Underwriting Standards (p. 97-98, 108)"
   },
   {
     "id": 906,
@@ -1570,8 +1570,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"When Access Bank underwrites and distributes any loans or debt instrument The Total Position is the amount that Access Bank intends to retain\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 907,
@@ -1583,8 +1583,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"When Access Bank underwrites and distributes any loans or debt instrument The Hold Position is the amount Access Bank commits to purchase and distribute to investors\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 908,
@@ -1596,8 +1596,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Underwriting & Syndication guidelines (p. 97-98), underwritten commitments must follow formal Commitment Letter standards. Unsold positions remaining after the defined Distribution Period (90 days) are categorized as Aged Inventory and marked to market.",
+    "page": "CPG Section 6.2.6 & Underwriting Standards (p. 97-98, 108)"
   },
   {
     "id": 909,
@@ -1609,8 +1609,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Section 6.2.10.4 (p. 106-110), credit approval authority in Access Bank is exercised jointly by designated officers (e.g., GMD, GDMD, Executive Directors jointly with CRO). Relationship Managers (RMs) do not possess individual credit approval authority acting independently.",
+    "page": "CPG Section 6.2.10.4: Credit Approval Authorities & Limits (p. 106-110)"
   },
   {
     "id": 910,
@@ -1622,8 +1622,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Credit underwriting and distribution requires the approval of individuals with highly specialized market skills and specific product expertise",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Credit underwriting and distribution requires the approval of individuals with highly specialized market skills and specific product expertise\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 911,
@@ -1635,8 +1635,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The level of approval in credit underwriting does not depend upon the amount and facility risk rating\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 912,
@@ -1648,8 +1648,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: One off transactions (i.e., those done outside a Credit Program) also require approval in line with the Credit Approval Authority grid",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Section 6.2.10.4 (p. 106-110), credit approval authority in Access Bank is exercised jointly by designated officers (e.g., GMD, GDMD, Executive Directors jointly with CRO). Relationship Managers (RMs) do not possess individual credit approval authority acting independently.",
+    "page": "CPG Section 6.2.10.4: Credit Approval Authorities & Limits (p. 106-110)"
   },
   {
     "id": 913,
@@ -1661,8 +1661,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Section 6.2.10.4 (p. 106-110), credit approval authority in Access Bank is exercised jointly by designated officers (e.g., GMD, GDMD, Executive Directors jointly with CRO). Relationship Managers (RMs) do not possess individual credit approval authority acting independently.",
+    "page": "CPG Section 6.2.10.4: Credit Approval Authorities & Limits (p. 106-110)"
   },
   {
     "id": 914,
@@ -1674,8 +1674,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Underwriting & Syndication guidelines (p. 97-98), underwritten commitments must follow formal Commitment Letter standards. Unsold positions remaining after the defined Distribution Period (90 days) are categorized as Aged Inventory and marked to market.",
+    "page": "CPG Section 6.2.6 & Underwriting Standards (p. 97-98, 108)"
   },
   {
     "id": 915,
@@ -1687,8 +1687,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Each Credit Program must have an approval process for the Total Position that specifies approval levels as a function of the size of the Total Position",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Each Credit Program must have an approval process for the Total Position that specifies approval levels as a function of the size of the Total Position\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 916,
@@ -1700,8 +1700,8 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: In Best Efforts Undertakings, Access Bank agrees to use its best efforts to place loans or securities with investors",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Underwriting & Syndication guidelines (p. 97-98), underwritten commitments must follow formal Commitment Letter standards. Unsold positions remaining after the defined Distribution Period (90 days) are categorized as Aged Inventory and marked to market.",
+    "page": "CPG Section 6.2.6 & Underwriting Standards (p. 97-98, 108)"
   },
   {
     "id": 917,
@@ -1713,7 +1713,7 @@ export const BANKJ_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "According to CPG Underwriting & Syndication guidelines (p. 97-98), underwritten commitments must follow formal Commitment Letter standards. Unsold positions remaining after the defined Distribution Period (90 days) are categorized as Aged Inventory and marked to market.",
+    "page": "CPG Section 6.2.6 & Underwriting Standards (p. 97-98, 108)"
   }
 ];

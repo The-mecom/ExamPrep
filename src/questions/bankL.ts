@@ -11,8 +11,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Access Bank customers who have their accounts in Nigeria but have traveled abroad can still use Accessonline wherever they are",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1034,
@@ -24,8 +24,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Access Online can be used to transfer money to loved ones who have accounts in other banks\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1035,
@@ -39,8 +39,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Individual customers pay a little sum every month for the use of accessonline\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1036,
@@ -54,8 +54,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Access online transactions are routed through V by V\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1037,
@@ -67,8 +67,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Another name for DAUE could be Local Negotiable Instrument Credit Program",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1038,
@@ -82,8 +82,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Investment notes\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Investment notes\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1039,
@@ -95,8 +95,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1040,
@@ -110,8 +110,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Has already been sent for clearing or collection\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1041,
@@ -125,8 +125,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"90% of the amount on the draft\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1042,
@@ -140,8 +140,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"2 only\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1043,
@@ -155,8 +155,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"80% of the amount on the cheque\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1044,
@@ -168,8 +168,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1045,
@@ -181,8 +181,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1046,
@@ -194,8 +194,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Invoice discounting is proposed to provide working capital financing in respect of contracts awarded or orders placed\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1047,
@@ -207,8 +207,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Before the request for funds under Invoice discounting is granted it must be confirmed that the principal is in the approved list of principals",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Before the request for funds under Invoice discounting is granted it must be confirmed that the principal is in the approved list of principals\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1048,
@@ -220,8 +220,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Any vendor can get value under Invoice discounting program\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1049,
@@ -235,8 +235,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of the above\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1050,
@@ -250,8 +250,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Customer will do more business even when they have not received pay for former\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Customer will do more business even when they have not received pay for former\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1051,
@@ -265,8 +265,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"2 or better\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"2 or better\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1052,
@@ -280,8 +280,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"3 or better\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"3 or better\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1053,
@@ -295,8 +295,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"5 years\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"5 years\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1054,
@@ -308,8 +308,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The vendor under Invoice discounting program must have at least 2 years credit relationship with Access Bank\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1055,
@@ -321,8 +321,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: The vendor under Invoice discounting program must have at least 2 years contract relationship with the Principal",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"The vendor under Invoice discounting program must have at least 2 years contract relationship with the Principal\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1056,
@@ -334,8 +334,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: In an Invoice discounting relationship, customer’s cash flow is improved for business growth",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"In an Invoice discounting relationship, customer’s cash flow is improved for business growth\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1057,
@@ -349,8 +349,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of the above\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1058,
@@ -362,8 +362,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"KYC is not a major part of documentation prior to Invoice discounting credit program\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1059,
@@ -377,8 +377,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of the above\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1060,
@@ -390,8 +390,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The main purpose of this program is to grant credit facilities to customers who we expect to have large deposits with the bank in future\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1061,
@@ -403,8 +403,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The main purpose of this program is to grant credit facilities to major customers of the bank\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1062,
@@ -418,8 +418,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of above\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1063,
@@ -431,8 +431,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Collateral currency must be in local currency only\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1064,
@@ -444,8 +444,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Collateral currency could be any convertible currency",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Collateral currency could be any convertible currency\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1065,
@@ -459,8 +459,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"5 years\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"5 years\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1066,
@@ -474,8 +474,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"We can grant 90% of currency value as facility\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"We can grant 90% of currency value as facility\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1067,
@@ -489,8 +489,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Customer uses laundered money as collateral\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Customer uses laundered money as collateral\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1068,
@@ -504,8 +504,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Robust KYC and customer profiling undertaken prior to completing the transaction\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Robust KYC and customer profiling undertaken prior to completing the transaction\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1069,
@@ -517,8 +517,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"A customer may on his volition have access to his cash collateral while his facility is still running\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1070,
@@ -530,8 +530,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"PND can be lifted from the customer’s collateral account on cash collateral lending if the account officer or relationship manager advises same\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1071,
@@ -543,8 +543,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: It is possible for the customer to have access to his collateral account after his obligations with regards to the facility granted has been taken care of.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"It is possible for the customer to have access to his collateral account after his obligations with regards to the facility granted has been taken care of.\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1072,
@@ -558,8 +558,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of the above\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1073,
@@ -573,8 +573,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Not less than 4% between deposit rate and facility rate\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Not less than 4% between deposit rate and facility rate\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1074,
@@ -586,8 +586,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Cash collateralized lending can only be initiated by Head office staff\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1075,
@@ -601,8 +601,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Organizing an Inter-School Sports competition\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Organizing an Inter-School Sports competition\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1076,
@@ -614,8 +614,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Every school in Nigeria can apply to get facility under FUSS\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1077,
@@ -629,8 +629,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"High quality private and government educational institutions\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"High quality private and government educational institutions\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1078,
@@ -644,8 +644,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"A short and medium term finance\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"A short and medium term finance\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1079,
@@ -657,8 +657,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The School that gets finance under FUSS may not have the need for which the fund is sought\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1080,
@@ -672,8 +672,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None of above\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None of above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1081,
@@ -685,8 +685,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: The Bank under FUSS may finance Buses for students of the applicable school",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"The Bank under FUSS may finance Buses for students of the applicable school\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1082,
@@ -698,8 +698,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Laboratory equipment are not qualified for financing under FUSS\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1083,
@@ -711,8 +711,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"School Furniture is not qualified for finance under FUSS\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1084,
@@ -724,8 +724,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Power generating sets are qualified for financing under FUSS",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Power generating sets are qualified for financing under FUSS\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1085,
@@ -739,8 +739,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Flexible documentation structure\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Flexible documentation structure\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1086,
@@ -752,8 +752,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Competitive rate is a major benefit of the FUSS program",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Competitive rate is a major benefit of the FUSS program\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1087,
@@ -767,8 +767,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1088,
@@ -780,8 +780,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Growth in liability of the Bank cannot be achieved with FUSS\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1089,
@@ -793,8 +793,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Growth in quality asset base of the Bank cannot be achieved with FUSS\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1090,
@@ -808,8 +808,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Payment of school fees\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Payment of school fees\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1091,
@@ -821,8 +821,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"FUSS credit program will be initiated in the head office alone\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1092,
@@ -836,8 +836,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Yes, every branch can\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Yes, every branch can\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1093,
@@ -851,8 +851,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"School fees payment\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"School fees payment\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1094,
@@ -864,8 +864,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Treasury Bills are short term in nature",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Treasury Bills are short term in nature\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1095,
@@ -879,8 +879,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"General Public\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"General Public\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1096,
@@ -894,8 +894,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"FG\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"FG\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1097,
@@ -909,8 +909,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Mgt of excess funds in the economy.\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Mgt of excess funds in the economy.\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1098,
@@ -924,8 +924,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Income is devoid of federal or state taxes\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Income is devoid of federal or state taxes\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1099,
@@ -939,8 +939,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"The Bank manages its funds effectively\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"The Bank manages its funds effectively\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1100,
@@ -954,8 +954,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Through Open Buy back\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Through Open Buy back\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1101,
@@ -969,8 +969,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Government Borrows to take care of pressing needs\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Government Borrows to take care of pressing needs\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1102,
@@ -982,8 +982,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Is it possible for government to borrow from Individuals",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Is it possible for government to borrow from Individuals\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1103,
@@ -995,8 +995,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Government borrows only from overseas institutions whenever it has need for money\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1104,
@@ -1008,8 +1008,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Money is pushed into the system whenever Treasury Bills are issued\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1105,
@@ -1021,8 +1021,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Inflation can be controlled through Treasury Bills issue",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Inflation can be controlled through Treasury Bills issue\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1106,
@@ -1036,8 +1036,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"61 days\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"61 days\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1107,
@@ -1051,8 +1051,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Money market\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Money market\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1108,
@@ -1066,8 +1066,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"CBN\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"CBN\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1109,
@@ -1079,8 +1079,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Any Commercial bank that so wishes could issue Treasury Bills\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1110,
@@ -1092,8 +1092,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The Banker`s Acceptance is drawn and accepted by the customers\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1111,
@@ -1105,8 +1105,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Once accepted, the Banker`s Acceptance becomes a liability of the bank",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Once accepted, the Banker`s Acceptance becomes a liability of the bank\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1112,
@@ -1118,8 +1118,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"By regulation, the bank must hold the accepted paper until maturity of the transaction\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1113,
@@ -1133,8 +1133,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"No, not possible\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"No, not possible\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1114,
@@ -1148,8 +1148,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Its an instruction from the Seller to his Bank\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Its an instruction from the Seller to his Bank\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1115,
@@ -1161,8 +1161,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"In a Bills for collection, the Bank cannot handover the document to purchaser if payment has not been made\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1116,
@@ -1174,8 +1174,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"An Undertaking to pay is not permissible under the laws governing bills for collections\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1117,
@@ -1189,8 +1189,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Form M\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 3.6.9 & 3.6.14 (p. 29, 33, 152), import finance facilities and trade credits require valid regulatory documentation (Form M where required), cash cover or acceptable collateral, and domiciliation of shipping/trade documents.",
+    "page": "CPG Section 3.6.9 & 3.6.14: Import Finance & Letters of Credit (p. 29, 33, 152)"
   },
   {
     "id": 1118,
@@ -1202,8 +1202,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 3.6.9 & 3.6.14 (p. 29, 33, 152), import finance facilities and trade credits require valid regulatory documentation (Form M where required), cash cover or acceptable collateral, and domiciliation of shipping/trade documents.",
+    "page": "CPG Section 3.6.9 & 3.6.14: Import Finance & Letters of Credit (p. 29, 33, 152)"
   },
   {
     "id": 1119,
@@ -1215,8 +1215,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 3.6.9 & 3.6.14 (p. 29, 33, 152), import finance facilities and trade credits require valid regulatory documentation (Form M where required), cash cover or acceptable collateral, and domiciliation of shipping/trade documents.",
+    "page": "CPG Section 3.6.9 & 3.6.14: Import Finance & Letters of Credit (p. 29, 33, 152)"
   },
   {
     "id": 1120,
@@ -1230,8 +1230,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Sends them to his bank\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Sends them to his bank\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1121,
@@ -1243,8 +1243,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"In an import\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1122,
@@ -1256,8 +1256,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: In a bills for collections transaction, shipment of goods precedes delivery of documents",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"In a bills for collections transaction, shipment of goods precedes delivery of documents\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1123,
@@ -1269,8 +1269,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: In a bills for collections, delivery of documents precedes shipment of goods",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"In a bills for collections, delivery of documents precedes shipment of goods\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1124,
@@ -1282,8 +1282,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"In a bills for collection, the law mandates the exporter to ship the goods together with the documents\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1125,
@@ -1297,8 +1297,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All of the above\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1126,
@@ -1312,8 +1312,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"He earns interest on value of goods\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"He earns interest on value of goods\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1127,
@@ -1327,8 +1327,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Bill of laden\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Bill of laden\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1128,
@@ -1340,8 +1340,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: CBN requires that documents evidencing clearance of goods must be submitted by importer to the bank before payment is made to seller",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"CBN requires that documents evidencing clearance of goods must be submitted by importer to the bank before payment is made to seller\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1129,
@@ -1353,8 +1353,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Corporate clients are mainly the target market on Bills for collection",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Corporate clients are mainly the target market on Bills for collection\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1130,
@@ -1366,8 +1366,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Access Bank is one of the Best banks in Nigeria known for trade transactions.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Access Bank is one of the Best banks in Nigeria known for trade transactions.\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1131,
@@ -1379,8 +1379,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Access Bank will leverage the opportunity of doing trade transactions for top corporate customers to deploy other products.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Access Bank will leverage the opportunity of doing trade transactions for top corporate customers to deploy other products.\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1132,
@@ -1392,8 +1392,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Bills for collection is considered an easier and cheaper mode of international trade transaction",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Bills for collection is considered an easier and cheaper mode of international trade transaction\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1133,
@@ -1405,8 +1405,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Central Bank of Nigeria does not allow a direct payment to a seller by a buyer in an international trade",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Central Bank of Nigeria does not allow a direct payment to a seller by a buyer in an international trade\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1134,
@@ -1420,8 +1420,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Interest earned on delivery against acceptance.\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Interest earned on delivery against acceptance.\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1135,
@@ -1435,8 +1435,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"No liability until the goods arrive\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"No liability until the goods arrive\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1136,
@@ -1448,8 +1448,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"If a Bills for collection transaction is consummated based on delivery against acceptance, the importer cannot sell goods, using the proceeds to pay\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1137,
@@ -1461,8 +1461,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Importer has no right to goods on delivery against payment until full payment is made on Bills for collection",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Importer has no right to goods on delivery against payment until full payment is made on Bills for collection\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1138,
@@ -1474,8 +1474,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: The contingent liability of an importer crystallizes in Bills for collection immediately the goods arrive and importer acknowledges”arrival in good order”",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"The contingent liability of an importer crystallizes in Bills for collection immediately the goods arrive and importer acknowledges”arrival in good order”\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1139,
@@ -1487,8 +1487,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"In a Bills for collection, because the seller is parting with goods and documents while allowing payment at a future date, it is common for interest to be demanded from the seller.\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1140,
@@ -1502,8 +1502,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Interest earned on delivery against acceptance\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Interest earned on delivery against acceptance\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1141,
@@ -1515,8 +1515,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Customer acquisition is not a benefit of Bills for collection to Access Bank\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1142,
@@ -1528,8 +1528,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Cash withdrawal directly from a call account is not doable in Access Bank",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Cash withdrawal directly from a call account is not doable in Access Bank\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1143,
@@ -1541,8 +1541,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Retail & Electronic Banking",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"Cash withdrawal directly from a money market account is doable in Access Bank\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1144,
@@ -1556,8 +1556,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"CCWO\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"CCWO\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1145,
@@ -1569,8 +1569,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Trade Finance & Operations",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 3.6.9 & 3.6.14 (p. 29, 33, 152), import finance facilities and trade credits require valid regulatory documentation (Form M where required), cash cover or acceptable collateral, and domiciliation of shipping/trade documents.",
+    "page": "CPG Section 3.6.9 & 3.6.14: Import Finance & Letters of Credit (p. 29, 33, 152)"
   },
   {
     "id": 1146,
@@ -1584,8 +1584,8 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Risk assessment report\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Risk assessment report\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1147,
@@ -1597,7 +1597,7 @@ export const BANKL_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"After goods have been cleared, an insurance certificate is required from the importer\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   }
 ];

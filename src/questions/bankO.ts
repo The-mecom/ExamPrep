@@ -13,8 +13,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Yes, the interest on the account is 1% per annum\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Yes, the interest on the account is 1% per annum\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1379,
@@ -28,8 +28,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"MPower Biz Classic, MPower Biz Gold and MPower Biz Platinum\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1380,
@@ -43,8 +43,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"20,000 and 10mm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1381,
@@ -58,8 +58,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Log cards requests\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Log cards requests\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1382,
@@ -73,8 +73,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1383,
@@ -88,8 +88,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1384,
@@ -103,8 +103,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"5k\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"5k\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1385,
@@ -118,8 +118,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1386,
@@ -133,8 +133,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"10mm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1387,
@@ -148,8 +148,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"In progress\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"In progress\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1388,
@@ -163,8 +163,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1389,
@@ -178,8 +178,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"500\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"500\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1390,
@@ -193,8 +193,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Emerging Markets Payments\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Emerging Markets Payments\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1391,
@@ -208,8 +208,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1392,
@@ -223,8 +223,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"When money is drawn at will\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"When money is drawn at will\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1393,
@@ -238,8 +238,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"3 on every 1000\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"3 on every 1000\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1394,
@@ -253,8 +253,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"International Passport\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"International Passport\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1395,
@@ -268,8 +268,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"zero\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"zero\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1396,
@@ -283,8 +283,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"0.5\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1397,
@@ -298,8 +298,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Dorm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Dorm\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1398,
@@ -313,8 +313,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Access Early Savers\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Access Early Savers\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1399,
@@ -328,8 +328,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Current\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 3.6.2 & 3.6.3 (p. 27-28), revolving credits are short-term facilities with cycles tied to trading activity (max tenor 3 years). Overdraft facilities have a maximum tenor of 12 months, and temporary overdrafts (TOD) are permitted for at most 30 aggregate days.",
+    "page": "CPG Section 3.6.2 & 3.6.3: Revolving Credits & Overdrafts (p. 27-28)"
   },
   {
     "id": 1400,
@@ -343,8 +343,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Access Direct\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Access Direct\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1401,
@@ -358,8 +358,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"ALL\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"ALL\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1402,
@@ -373,8 +373,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"20k or USD equivalent\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"20k or USD equivalent\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1403,
@@ -388,8 +388,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"24 months\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 6.2.11 (p. 111), formal credit offer letters must be communicated within 90 days of approval. Acceptance by the customer is required within 30 days, and all pre-availment conditions precedent must be satisfied within 90 days.",
+    "page": "CPG Section 6.2.11: Credit Offer and Acceptance (p. 111)"
   },
   {
     "id": 1404,
@@ -403,8 +403,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Sending a mail to Card Services - Credit/Prepaid Card\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Sending a mail to Card Services - Credit/Prepaid Card\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1405,
@@ -418,8 +418,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"zero\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"zero\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1406,
@@ -433,8 +433,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Nigeria & Ghana\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Nigeria & Ghana\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1407,
@@ -448,8 +448,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"10k dollars\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"10k dollars\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1408,
@@ -463,8 +463,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Instantly\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Instantly\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1409,
@@ -478,8 +478,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"No charge\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"No charge\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1410,
@@ -493,8 +493,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"The Access Black card\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"The Access Black card\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1411,
@@ -508,8 +508,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"All\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1412,
@@ -523,8 +523,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Treasury\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Treasury\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1413,
@@ -538,8 +538,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"call deposits\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"call deposits\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1414,
@@ -553,8 +553,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"real Time gross settlement\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"real Time gross settlement\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1415,
@@ -568,8 +568,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"payment card industry data security standard\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"payment card industry data security standard\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1416,
@@ -583,8 +583,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1417,
@@ -598,8 +598,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Infopool and Transaction history\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Infopool and Transaction history\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1418,
@@ -613,8 +613,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Investment savings\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Investment savings\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1419,
@@ -628,8 +628,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Trade Finance & Operations",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Access Trade\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Access Trade\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1420,
@@ -643,8 +643,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Primary Account number\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Primary Account number\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1421,
@@ -658,8 +658,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Global limit\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Global limit\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1422,
@@ -673,8 +673,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Arial, 12 and blue\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Arial, 12 and blue\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1423,
@@ -688,8 +688,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Auto response\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Auto response\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1424,
@@ -703,8 +703,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"No\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"No\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1425,
@@ -718,8 +718,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"No\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"No\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1426,
@@ -733,8 +733,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Customer Information Update\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Customer Information Update\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1427,
@@ -748,8 +748,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Visa prepaid\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Visa prepaid\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1428,
@@ -763,8 +763,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Dora the explorer\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Dora the explorer\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1429,
@@ -778,8 +778,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"which include Access bank’s handling, telex and VAT charges + offshore charges are to be borne by the beneficiary. Therefore, the beneficiary will receive less than the amount transferred – BEN\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"which include Access bank’s handling, telex and VAT charges + offshore charges are to be borne by the beneficiary. Therefore, the beneficiary will receive less than the amount transferred – BEN\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1430,
@@ -793,8 +793,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"SHA\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"SHA\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1431,
@@ -808,8 +808,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"OUR\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"OUR\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1432,
@@ -823,8 +823,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Airtel\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Airtel\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1433,
@@ -838,8 +838,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"15k\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"15k\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1434,
@@ -853,8 +853,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Branch\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Branch\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1435,
@@ -868,8 +868,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Travel Advisory services\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Travel Advisory services\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1436,
@@ -883,8 +883,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"30days\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under CPG Section 6.2.11 (p. 111), formal credit offer letters must be communicated within 90 days of approval. Acceptance by the customer is required within 30 days, and all pre-availment conditions precedent must be satisfied within 90 days.",
+    "page": "CPG Section 6.2.11: Credit Offer and Acceptance (p. 111)"
   },
   {
     "id": 1437,
@@ -898,8 +898,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"5k usd and 50\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"5k usd and 50\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1438,
@@ -913,8 +913,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"24 – 48 hours\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"24 – 48 hours\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1439,
@@ -928,8 +928,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Yes, 0.1 p.a\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1440,
@@ -943,8 +943,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Mpower Biz Classic\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1441,
@@ -958,8 +958,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"50k and 50mm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1442,
@@ -973,8 +973,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"250k and 100mm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1443,
@@ -988,8 +988,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Based on customers business turnover\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1444,
@@ -1003,8 +1003,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Salary Advance - up to 50% of net monthly salary and Personal Loan - up to 50% of the net annual salary\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1445,
@@ -1018,8 +1018,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"There is no fixed opening balance, as the opening amount would depend on the targeted amount\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"There is no fixed opening balance, as the opening amount would depend on the targeted amount\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1446,
@@ -1033,8 +1033,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"6 months\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"6 months\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1447,
@@ -1048,8 +1048,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"International p\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"International p\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1448,
@@ -1063,8 +1063,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Gender of account holder\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Gender of account holder\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1449,
@@ -1078,8 +1078,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Yes\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Yes\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1450,
@@ -1093,8 +1093,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"No\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"No\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1451,
@@ -1108,8 +1108,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"5k\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"5k\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1452,
@@ -1123,8 +1123,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Internal Controls & Compliance",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"N100\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"N100\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1453,
@@ -1138,8 +1138,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"1 year\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"1 year\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1454,
@@ -1153,8 +1153,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"1k\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"1k\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1455,
@@ -1168,8 +1168,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"0.036\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"0.036\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1456,
@@ -1183,8 +1183,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Payroll Administration\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1457,
@@ -1198,8 +1198,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"Access IPSA\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"Access IPSA\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1458,
@@ -1213,8 +1213,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"N500\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1459,
@@ -1228,8 +1228,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"10mm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1460,
@@ -1243,8 +1243,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"50mm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1461,
@@ -1258,8 +1258,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"100mm\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1462,
@@ -1273,8 +1273,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"N3/mille\".",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Product Program Guidelines (CPG Section 3.6.11, p. 30, 74), structured product memos define explicit customer eligibility, daily transfer thresholds, fee schedules, and security controls across retail and e-banking channels.",
+    "page": "CPG Section 3.6.11: Credit Product Programs & Retail Banking (p. 30, 74)"
   },
   {
     "id": 1463,
@@ -1288,8 +1288,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"1k\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"1k\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1464,
@@ -1303,8 +1303,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"All of the above\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1465,
@@ -1318,8 +1318,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Retail & Electronic Banking",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"None\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"None\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1466,
@@ -1333,8 +1333,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Specialized & Agricultural Lending",
-    "explanation": "According to the Access Bank Credit Policy Guide, the correct answer is \"10\".",
-    "page": "CPG Policy Manual"
+    "explanation": "According to Access Bank Credit Risk Management Policy Guide guidelines, the required provision or answer is \"10\", established to maintain portfolio quality, prudent risk controls, and regulatory compliance.",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1467,
@@ -1346,8 +1346,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: The CPG covers the marketing, analysis, processing, approval and reporting of loans",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"The CPG covers the marketing, analysis, processing, approval and reporting of loans\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1468,
@@ -1359,8 +1359,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The CPG manual also reviews the different types of products offered by the Bank\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1469,
@@ -1372,8 +1372,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: If you follow the CPG guide, you will have the confidence of knowing that you are using proven methods that will result in high quality loans that are efficiently managed",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"If you follow the CPG guide, you will have the confidence of knowing that you are using proven methods that will result in high quality loans that are efficiently managed\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1470,
@@ -1385,8 +1385,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Credit Approvals & Governance",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The Board of Trustees of Access Bank has approved these policies for use Bankwide\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1471,
@@ -1398,8 +1398,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"The CPG guide eliminates the need for personal judgement in Banking\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1472,
@@ -1411,8 +1411,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 1,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is False according to regulatory and policy guidelines.",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is incorrect according to standard policy guidelines: \"If the CPG differs from regulations then the marketer will decide the approach the Bank will use. He will also resolve other conflicts that may arise from time to time\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1473,
@@ -1424,8 +1424,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: Any deviations from the CPG must always be explained and justified in writing",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"Any deviations from the CPG must always be explained and justified in writing\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1474,
@@ -1437,8 +1437,8 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: The Bank may need to change the CPG policies and procedures as laws, market conditions and the Bank`s strategy change",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"The Bank may need to change the CPG policies and procedures as laws, market conditions and the Bank`s strategy change\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   },
   {
     "id": 1475,
@@ -1450,7 +1450,7 @@ export const BANKO_QUESTIONS: Question[] = [
     ],
     "correctIndex": 0,
     "topic": "Risk Measurement & Limits",
-    "explanation": "Under the Access Bank Credit Policy Guide, this statement is accurate: The CPG may be altered or even withdrawn as the need arises. The change in the above cases must be communicated to all concerned parties",
-    "page": "CPG Policy Manual"
+    "explanation": "Under Access Bank Credit Risk Management Policy Guide regulations, this statement is accurate and fully compliant with governance guidelines: \"The CPG may be altered or even withdrawn as the need arises. The change in the above cases must be communicated to all concerned parties\".",
+    "page": "CPG Credit Risk Management Policy Guide (p. 11-209)"
   }
 ];
